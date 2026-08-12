@@ -1,0 +1,1840 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Galimatech — Building Africa's Digital Capabilities</title>
+<meta name="description" content="Building Africa's Digital Capabilities. Teams, Technology, Talent & AI — from Dakar, for Africa and Europe.">
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="icon" type="image/png" href="data:image/png;base64,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">
+<style>
+:root {
+  --navy-deep:#0B1628;--navy:#1B2D6B;--cyan:#00AEEF;--cyan-light:#00AEEF;
+  --gold:#C9913A;--gold-light:#E5B56A;--gray-bg:#F6F7FA;--gray-mid:#E8EBF2;
+  --gray-text:#6B7280;--white:#FFFFFF;--dark:#1B2D6B;
+  --font-d:'Plus Jakarta Sans',sans-serif;--font-b:'Inter',sans-serif;
+  --font-m:'JetBrains Mono',monospace;
+  --radius:14px;--shadow:0 4px 32px rgba(11,22,40,.10);--shadow-lg:0 16px 60px rgba(11,22,40,.18);
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:var(--font-b);color:var(--dark);background:var(--white);line-height:1.6;overflow-x:hidden}
+a{text-decoration:none;color:inherit}
+
+/* ── NAV ── */
+.nav{position:fixed;top:0;left:0;right:0;z-index:9000;display:flex;align-items:center;justify-content:space-between;padding:20px 60px;transition:all .35s;background:#1B2D6B;border-bottom:1px solid rgba(255,255,255,.08);box-shadow:0 2px 12px rgba(11,22,40,.25)}
+.nav.scrolled{background:#1B2D6B;backdrop-filter:blur(12px);padding:14px 60px;box-shadow:0 4px 20px rgba(11,22,40,.3)}
+.nav-logo{display:flex;align-items:center;gap:4px;font-family:var(--font-d);font-weight:800;font-size:20px;color:#FFFFFF;cursor:pointer}
+.nav-logo img{height:44px;width:auto;max-width:200px;display:block;object-fit:contain}
+.nav-logo .dot{width:9px;height:9px;border-radius:50%;background:var(--cyan);margin-left:2px}
+.nav-logo-upload{display:flex;align-items:center;justify-content:center;cursor:pointer;height:34px;padding:0 12px;border:1px dashed rgba(255,255,255,.3);border-radius:8px;transition:all .2s;color:rgba(255,255,255,.75)}
+.nav-logo-upload:hover{border-color:var(--cyan);color:var(--cyan)}
+.nav-logo-upload img{height:32px;width:auto;max-width:160px;display:block;object-fit:contain}
+.nav-logo-placeholder{display:flex;align-items:center;gap:6px;font-family:var(--font-b);font-size:12px;font-weight:600;letter-spacing:.03em;text-transform:uppercase;white-space:nowrap}
+.nav-logo-placeholder svg{width:16px;height:16px;flex:none}
+.nav-sub{font-size:10px;font-family:var(--font-m);color:rgba(255,255,255,.5);letter-spacing:1px;margin-top:2px}
+.nav-links{display:flex;align-items:center;gap:32px}
+.nav-links a{font-size:14px;font-weight:600;color:rgba(255,255,255,.85);transition:color .2s}
+.nav-links a:hover,.nav-links a.active{color:var(--cyan)}
+.nav-cta{background:var(--cyan);color:#ffffff!important;padding:10px 22px;border-radius:8px;font-weight:600!important;transition:all .2s!important}
+.nav-back-pill{display:inline-flex;align-items:center;gap:8px;font-family:var(--font-b);font-size:14px;font-weight:600;color:rgba(255,255,255,.85);background:transparent;border:1px solid rgba(255,255,255,.25);border-radius:8px;padding:9px 16px;cursor:pointer;transition:all .2s;text-decoration:none}
+.nav-back-pill svg{width:15px;height:15px;stroke:currentColor;stroke-width:2;fill:none;stroke-linecap:round;stroke-linejoin:round}
+.nav-back-pill:hover{border-color:var(--cyan);color:var(--cyan)}
+.nav-left{display:flex;align-items:center;gap:18px}
+.nav-cta:hover{background:var(--cyan-light);transform:translateY(-1px)}
+.nav-menu-btn{display:none;background:none;border:none;cursor:pointer;flex-direction:column;gap:5px;padding:4px}
+.nav-menu-btn span{width:24px;height:2px;background:#FFFFFF;border-radius:2px;transition:.3s}
+
+/* ── NAV DROPDOWN ── */
+.nav-item{position:relative;display:flex;align-items:center;height:100%;padding:8px 0}
+.nav-item>a{display:flex;align-items:center;gap:5px}
+.nav-item .nav-caret{width:9px;height:9px;stroke:currentColor;stroke-width:2;fill:none;transition:transform .2s}
+.nav-item:hover .nav-caret{transform:rotate(180deg)}
+.nav-dropdown{position:absolute;top:100%;left:0;min-width:220px;background:#FFFFFF;border:1px solid #EEF0F3;border-radius:12px;padding:8px;box-shadow:0 16px 40px rgba(11,22,40,.14);opacity:0;visibility:hidden;transform:translateY(6px);transition:all .18s;z-index:9500}
+.nav-item:hover .nav-dropdown{opacity:1;visibility:visible;transform:translateY(0)}
+.nav-dropdown a{display:block;padding:10px 14px;font-size:13.5px;border-radius:8px;color:#1B2D6B!important;white-space:nowrap}
+.nav-dropdown a:hover{background:var(--gray-bg);color:var(--cyan)!important}
+
+/* ── MOBILE SUBMENU ── */
+.mobile-nav .nav-item{flex-direction:column;padding:0;height:auto;align-items:center}
+.mobile-nav .nav-dropdown{position:static;opacity:1;visibility:visible;transform:none;background:transparent;border:none;box-shadow:none;padding:16px 0 0;display:flex;flex-direction:column;align-items:center;gap:14px}
+.mobile-nav .nav-dropdown a{font-family:var(--font-b);font-size:15px;font-weight:500;padding:0;color:rgba(255,255,255,.7)!important}
+.mobile-nav .nav-dropdown a:hover{background:none;color:var(--cyan)!important}
+
+/* ── HERO PRINCIPAL ── */
+.hero{min-height:100vh;background:var(--navy-deep);display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:120px 24px 80px;position:relative;overflow:hidden}
+.hero-slides{position:absolute;inset:0;z-index:0;overflow:hidden}
+.hero-slide{position:absolute;inset:0;background-size:cover;background-position:center;opacity:0;transform:scale(1);transition:opacity 1.6s ease-in-out;animation:heroKenburns 16s ease-in-out infinite}
+.hero-slide.active{opacity:1;z-index:1}
+@keyframes heroKenburns{0%{transform:scale(1)}100%{transform:scale(1.12)}}
+.hero-overlay{position:absolute;inset:0;z-index:2;background:linear-gradient(180deg,rgba(11,22,40,.92) 0%,rgba(11,22,40,.82) 45%,rgba(11,22,40,.94) 100%)}
+.hero-dots{position:absolute;bottom:88px;left:50%;transform:translateX(-50%);z-index:6;display:flex;gap:10px}
+.hero-dot{width:8px;height:8px;border-radius:50%;background:rgba(255,255,255,.3);cursor:pointer;transition:all .3s;border:none;padding:0}
+.hero-dot.active{background:var(--cyan);width:26px;border-radius:4px}
+.hero-grid{z-index:3}
+.hero-glow{z-index:3}
+.hero-eyebrow,.hero-headline,.hero-main,.hero-tagline,.hero-from,.hero-cta-group,.hero-stats,.hero-scroll{position:relative;z-index:5}
+.hero-grid{position:absolute;inset:0;background-image:linear-gradient(rgba(0,174,239,.06) 1px,transparent 1px),linear-gradient(90deg,rgba(0,174,239,.06) 1px,transparent 1px);background-size:60px 60px;mask-image:radial-gradient(ellipse 80% 80% at 50% 50%,black 0%,transparent 100%)}
+.hero-glow{position:absolute;width:800px;height:800px;background:radial-gradient(circle,rgba(0,174,239,.10) 0%,transparent 70%);top:50%;left:50%;transform:translate(-50%,-50%);pointer-events:none}
+.hero-eyebrow{font-family:var(--font-m);font-size:11px;letter-spacing:3px;color:var(--cyan);text-transform:uppercase;margin-bottom:32px;display:flex;align-items:center;gap:14px}
+.hero-eyebrow::before,.hero-eyebrow::after{content:'';flex:1;height:1px;max-width:60px;background:linear-gradient(90deg,transparent,var(--cyan))}
+.hero-eyebrow::after{background:linear-gradient(90deg,var(--cyan),transparent)}
+.hero-headline{font-family:var(--font-d);font-size:clamp(18px,2.5vw,28px);font-weight:500;color:rgba(255,255,255,.55);margin-bottom:12px;letter-spacing:.5px}
+.hero-main{font-family:var(--font-d);font-size:clamp(44px,7vw,92px);font-weight:800;line-height:1.02;color:var(--white);margin-bottom:20px;letter-spacing:-1px}
+.hero-main span{color:var(--cyan)}
+.hero-tagline{font-family:var(--font-b);font-size:clamp(16px,1.8vw,20px);font-weight:400;color:rgba(255,255,255,.5);margin-bottom:36px;letter-spacing:.2px;max-width:680px;line-height:1.6}
+.hero-tagline .hl{color:rgba(255,255,255,.75)}
+.hero-from{display:flex;align-items:center;justify-content:center;gap:20px;margin-bottom:64px;flex-wrap:wrap}
+.hero-from-item{font-family:var(--font-m);font-size:11px;letter-spacing:2px;text-transform:uppercase;color:rgba(255,255,255,.35);display:flex;align-items:center;gap:8px}
+.hero-from-item span{color:var(--cyan);font-weight:600}
+.hero-from-sep{width:4px;height:4px;border-radius:50%;background:rgba(255,255,255,.2)}
+.hero-cta-group{display:flex;gap:16px;justify-content:center;flex-wrap:wrap;margin-bottom:72px}
+.btn-hero{background:var(--cyan);color:var(--navy-deep);font-family:var(--font-d);font-weight:700;font-size:15px;padding:15px 32px;border-radius:10px;border:none;cursor:pointer;display:inline-flex;align-items:center;gap:8px;transition:all .22s;text-decoration:none}
+.btn-hero:hover{background:var(--cyan-light);transform:translateY(-2px);box-shadow:0 8px 24px rgba(0,174,239,.35)}
+.btn-hero-ghost{background:transparent;color:rgba(255,255,255,.8);font-family:var(--font-d);font-weight:600;font-size:15px;padding:15px 32px;border-radius:10px;border:1px solid rgba(255,255,255,.2);cursor:pointer;display:inline-flex;align-items:center;gap:8px;transition:all .22s;text-decoration:none}
+.btn-hero-ghost:hover{border-color:rgba(255,255,255,.5);color:white;transform:translateY(-1px)}
+.hero-stats{display:flex;gap:56px;justify-content:center;flex-wrap:wrap}
+.hero-stat .num{font-family:var(--font-m);font-size:30px;font-weight:500;color:var(--cyan);line-height:1}
+.hero-stat .lbl{font-size:11px;color:rgba(255,255,255,.4);margin-top:6px;letter-spacing:.5px}
+.hero-scroll{position:absolute;bottom:36px;left:50%;transform:translateX(-50%);display:flex;flex-direction:column;align-items:center;gap:8px;color:rgba(255,255,255,.25);font-size:10px;letter-spacing:2px;text-transform:uppercase;font-family:var(--font-m)}
+.hero-scroll svg{width:22px;height:22px;animation:bounce 2s ease-in-out infinite}
+@keyframes bounce{0%,100%{transform:translateY(0)}50%{transform:translateY(6px)}}
+
+/* ── BOUCLE SCHEMA ── */
+.loop-section{background:var(--white);padding:80px 24px 0}
+.loop-inner{max-width:1100px;margin:0 auto}
+.section-eyebrow{font-family:var(--font-m);font-size:11px;letter-spacing:2.5px;color:var(--cyan);text-transform:uppercase;margin-bottom:16px;display:flex;align-items:center;gap:12px}
+.section-eyebrow::after{content:'';flex:1;height:1px;background:linear-gradient(90deg,var(--cyan),transparent);max-width:80px}
+.section-title{font-family:var(--font-d);font-size:clamp(26px,4vw,42px);font-weight:800;color:var(--navy);margin-bottom:14px;max-width:580px}
+.section-sub{font-size:16px;color:var(--gray-text);max-width:520px;margin-bottom:60px;line-height:1.75}
+.loop-diagram{display:flex;align-items:center;justify-content:center;gap:0;flex-wrap:nowrap;overflow-x:auto;padding:40px 0}
+.loop-node{display:flex;flex-direction:column;align-items:center;gap:10px;min-width:120px;flex-shrink:0}
+.loop-icon{width:60px;height:60px;border-radius:16px;display:flex;align-items:center;justify-content:center;position:relative}
+.loop-icon svg{width:28px;height:28px;stroke-width:1.75;stroke-linecap:round;stroke-linejoin:round}
+.loop-icon-client{background:linear-gradient(135deg,#EEF2FF,#C7D2FE)}
+.loop-icon-client svg{stroke:var(--navy)}
+.loop-icon-tech{background:linear-gradient(135deg,#ECFDF5,#A7F3D0)}
+.loop-icon-tech svg{stroke:#065F46}
+.loop-icon-talent{background:linear-gradient(135deg,#FFF7ED,#FDE68A)}
+.loop-icon-talent svg{stroke:#92400E}
+.loop-icon-ai{background:linear-gradient(135deg,#F5F3FF,#DDD6FE)}
+.loop-icon-ai svg{stroke:#5B21B6}
+.loop-icon-impact{background:linear-gradient(135deg,var(--navy),#1B2D6B)}
+.loop-icon-impact svg{stroke:var(--cyan)}
+.loop-label{font-family:var(--font-d);font-size:12px;font-weight:700;color:var(--navy);text-align:center;line-height:1.3}
+.loop-sub{font-size:10px;color:var(--gray-text);text-align:center;line-height:1.4;max-width:90px}
+.loop-arrow{display:flex;align-items:center;flex-shrink:0;margin:0 4px;padding-bottom:20px}
+.loop-arrow svg{width:24px;height:24px;stroke:rgba(0,174,239,.4);stroke-width:2;fill:none;stroke-linecap:round}
+.loop-back{display:flex;align-items:center;justify-content:center;margin-top:16px;padding:12px 24px;background:rgba(0,174,239,.06);border-radius:30px;border:1px dashed rgba(0,174,239,.25);width:fit-content;margin-left:auto;margin-right:auto;gap:8px}
+.loop-back-text{font-family:var(--font-m);font-size:10px;color:var(--cyan);letter-spacing:1.5px;text-transform:uppercase}
+
+/* ── QUESTION + 4 PORTES ── */
+.question-section{padding:80px 24px 0;text-align:center;background:var(--white)}
+.question-label{font-family:var(--font-m);font-size:11px;letter-spacing:2px;color:var(--cyan);text-transform:uppercase;margin-bottom:16px}
+.question-title{font-family:var(--font-d);font-size:clamp(26px,4vw,44px);font-weight:800;color:var(--navy);margin-bottom:12px}
+.question-sub{font-size:16px;color:var(--gray-text);max-width:480px;margin:0 auto}
+.doors{display:grid;grid-template-columns:1fr 1fr;gap:24px;max-width:1100px;margin:52px auto 0;padding:0 24px 80px}
+.door{position:relative;border-radius:var(--radius);padding:40px 36px;cursor:pointer;transition:all .3s;border:1.5px solid transparent;overflow:hidden;display:flex;flex-direction:column;text-decoration:none}
+.door::before{content:'';position:absolute;inset:0;opacity:0;transition:opacity .3s}
+.door:hover{transform:translateY(-4px);box-shadow:var(--shadow-lg)}
+.door:hover::before{opacity:1}
+.door-1{background:linear-gradient(135deg,#EEF2FF 0%,#E0E7FF 100%);border-color:rgba(27,45,107,.12)}
+.door-1::before{background:linear-gradient(135deg,#E0E7FF 0%,#C7D2FE 100%)}
+.door-1 .door-icon-bg{background:var(--navy)}
+.door-1 .door-number{color:var(--navy)}
+.door-1 .door-cta{color:var(--navy);border-color:var(--navy)}
+.door-1 .door-cta:hover{background:var(--navy);color:white}
+.door-2{background:linear-gradient(135deg,#ECFDF5 0%,#D1FAE5 100%);border-color:rgba(15,107,86,.12)}
+.door-2::before{background:linear-gradient(135deg,#D1FAE5 0%,#A7F3D0 100%)}
+.door-2 .door-icon-bg{background:#065F46}
+.door-2 .door-number{color:#065F46}
+.door-2 .door-cta{color:#065F46;border-color:#065F46}
+.door-2 .door-cta:hover{background:#065F46;color:white}
+.door-3{background:linear-gradient(135deg,#FFF7ED 0%,#FEF3C7 100%);border-color:rgba(201,145,58,.15)}
+.door-3::before{background:linear-gradient(135deg,#FEF3C7 0%,#FDE68A 100%)}
+.door-3 .door-icon-bg{background:var(--gold)}
+.door-3 .door-number{color:var(--gold)}
+.door-3 .door-cta{color:var(--gold);border-color:var(--gold)}
+.door-3 .door-cta:hover{background:var(--gold);color:white}
+.door-4{background:linear-gradient(135deg,#F5F3FF 0%,#EDE9FE 100%);border-color:rgba(109,40,217,.12)}
+.door-4::before{background:linear-gradient(135deg,#EDE9FE 0%,#DDD6FE 100%)}
+.door-4 .door-icon-bg{background:#5B21B6}
+.door-4 .door-number{color:#5B21B6}
+.door-4 .door-cta{color:#5B21B6;border-color:#5B21B6}
+.door-4 .door-cta:hover{background:#5B21B6;color:white}
+.door-header{display:flex;align-items:flex-start;justify-content:space-between;margin-bottom:24px}
+.door-icon-bg{width:48px;height:48px;border-radius:12px;display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.door-icon-bg svg{width:24px;height:24px;fill:none;stroke:white;stroke-width:1.75;stroke-linecap:round;stroke-linejoin:round}
+.door-number{font-family:var(--font-m);font-size:11px;font-weight:500;letter-spacing:1px;opacity:.6;align-self:center}
+.door-tag{display:inline-block;padding:3px 10px;border-radius:20px;font-size:11px;font-weight:600;letter-spacing:.5px;margin-bottom:12px;text-transform:uppercase}
+.door-1 .door-tag{background:rgba(27,45,107,.12);color:var(--navy)}
+.door-2 .door-tag{background:rgba(6,95,70,.12);color:#065F46}
+.door-3 .door-tag{background:rgba(201,145,58,.15);color:#92400E}
+.door-4 .door-tag{background:rgba(91,33,182,.12);color:#5B21B6}
+.door-problem{font-size:12px;color:var(--gray-text);font-family:var(--font-m);letter-spacing:.5px;margin-bottom:6px;text-transform:uppercase}
+.door-question{font-family:var(--font-d);font-size:20px;font-weight:700;line-height:1.35;margin-bottom:10px;color:#0F172A}
+.door-desc{font-size:14px;color:#4B5563;line-height:1.65;margin-bottom:24px;flex:1}
+.door-chips{display:flex;flex-wrap:wrap;gap:7px;margin-bottom:28px}
+.door-chip{font-size:12px;padding:4px 10px;border-radius:6px;font-weight:500;background:rgba(255,255,255,.65);color:#374151;border:1px solid rgba(0,0,0,.07)}
+.door-cta{display:inline-flex;align-items:center;gap:8px;font-family:var(--font-d);font-size:14px;font-weight:700;padding:12px 20px;border-radius:8px;border:1.5px solid;transition:all .22s;align-self:flex-start}
+.door-cta svg{width:16px;height:16px;transition:transform .22s}
+.door:hover .door-cta svg{transform:translateX(3px)}
+
+/* ── PROOF LOGOS ── */
+.proof-strip{background:var(--navy-deep);padding:52px 24px}
+.proof-strip .label{font-family:var(--font-m);font-size:10px;letter-spacing:2px;color:rgba(255,255,255,.35);text-transform:uppercase;margin-bottom:32px;text-align:center}
+.proof-logos{display:flex;align-items:center;justify-content:center;gap:48px;flex-wrap:wrap}
+.proof-logo{font-family:var(--font-d);font-weight:700;font-size:15px;color:rgba(255,255,255,.4);letter-spacing:.5px;transition:color .2s;display:flex;flex-direction:column;align-items:center;gap:4px}
+.proof-logo:hover{color:rgba(255,255,255,.8)}
+.proof-logo .proof-type{font-family:var(--font-m);font-size:9px;color:rgba(255,255,255,.2);letter-spacing:1.5px;text-transform:uppercase}
+.proof-sep{width:1px;height:28px;background:rgba(255,255,255,.08)}
+
+/* ── WHY GALIMATECH ── */
+.why-section{background:var(--navy);padding:100px 24px;position:relative;overflow:hidden}
+.why-section .hero-grid{background-image:linear-gradient(rgba(255,255,255,.04) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.04) 1px,transparent 1px);background-size:48px 48px}
+.why-inner{max-width:1100px;margin:0 auto;position:relative;z-index:1}
+.why-eyebrow{font-family:var(--font-m);font-size:11px;letter-spacing:2.5px;color:var(--cyan);text-transform:uppercase;margin-bottom:20px}
+.why-title{font-family:var(--font-d);font-size:clamp(32px,5vw,56px);font-weight:800;color:var(--white);line-height:1.08;margin-bottom:20px}
+.why-title span{color:var(--cyan)}
+.why-intro{font-size:17px;color:rgba(255,255,255,.55);max-width:620px;margin-bottom:64px;line-height:1.8}
+.why-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:2px}
+.why-item{padding:40px 32px;border-left:1px solid rgba(255,255,255,.08);transition:background .3s;cursor:default}
+.why-item:first-child{border-left:none}
+.why-item:hover{background:rgba(255,255,255,.03)}
+.why-num{font-family:var(--font-m);font-size:11px;color:var(--cyan);margin-bottom:20px;letter-spacing:1px}
+.why-item-title{font-family:var(--font-d);font-size:20px;font-weight:800;color:var(--white);margin-bottom:10px}
+.why-item-sub{font-family:var(--font-m);font-size:11px;color:var(--cyan);letter-spacing:.5px;margin-bottom:16px;text-transform:uppercase}
+.why-item-desc{font-size:14px;color:rgba(255,255,255,.45);line-height:1.75}
+.why-link{display:inline-flex;align-items:center;gap:8px;margin-top:24px;font-family:var(--font-d);font-weight:600;font-size:14px;color:var(--cyan);transition:gap .2s;text-decoration:none}
+.why-link:hover{gap:12px}
+.why-link svg{width:16px;height:16px;stroke:currentColor;stroke-width:2;fill:none;stroke-linecap:round}
+.why-proof-bar{margin-top:64px;padding-top:48px;border-top:1px solid rgba(255,255,255,.08);display:grid;grid-template-columns:repeat(5,1fr);gap:32px}
+.why-proof-item .n{font-family:var(--font-m);font-size:32px;font-weight:500;color:var(--cyan);line-height:1}
+.why-proof-item .l{font-size:12px;color:rgba(255,255,255,.35);margin-top:8px;line-height:1.5}
+
+/* ── WHY PAGE (sous-page) ── */
+.why-page-section{padding:80px 24px;max-width:1100px;margin:0 auto}
+.why-problem-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-top:48px}
+.problem-card{background:var(--gray-bg);border-radius:var(--radius);padding:32px;border:1px solid var(--gray-mid);transition:all .3s}
+.problem-card:hover{box-shadow:var(--shadow);transform:translateY(-2px)}
+.problem-q{font-family:var(--font-d);font-size:17px;font-weight:700;color:#DC2626;margin-bottom:12px;line-height:1.35}
+.problem-a{font-size:14px;color:var(--gray-text);line-height:1.7;margin-bottom:16px}
+.problem-proof{font-family:var(--font-m);font-size:12px;color:var(--navy);font-weight:500}
+.answer-arrow{display:flex;align-items:center;gap:8px;margin:8px 0;font-size:14px}
+.answer-arrow .arrow{color:var(--cyan);font-weight:700;font-size:18px}
+.answer-arrow .answer{color:var(--navy);font-weight:600}
+.moat-section{background:var(--gray-bg);border-radius:20px;padding:48px;margin-top:60px}
+.moat-title{font-family:var(--font-d);font-size:24px;font-weight:800;color:var(--navy);margin-bottom:32px}
+.moat-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.moat-item{background:var(--white);border-radius:12px;padding:24px;border:1px solid var(--gray-mid)}
+.moat-item-icon{font-size:24px;margin-bottom:12px}
+.moat-item h4{font-family:var(--font-d);font-size:14px;font-weight:700;color:var(--navy);margin-bottom:8px}
+.moat-item p{font-size:13px;color:var(--gray-text);line-height:1.65}
+.competitors-section{margin-top:60px}
+.comp-table{width:100%;border-radius:14px;overflow:hidden;border:1px solid var(--gray-mid)}
+.comp-table table{width:100%;border-collapse:collapse}
+.comp-table th{padding:14px 18px;font-family:var(--font-d);font-size:13px;font-weight:700;text-align:left;background:var(--navy);color:white}
+.comp-table td{padding:12px 18px;font-size:13px;color:#374151;border-bottom:1px solid var(--gray-mid)}
+.comp-table tr:last-child td{border-bottom:none}
+.comp-table tr:hover td{background:var(--gray-bg)}
+.comp-table .gali{background:#EFF6FF!important;font-weight:700;color:var(--navy)}
+.check{color:#059669;font-weight:700}
+.cross{color:#DC2626}
+.warn{color:#D97706}
+
+/* ── REFS ── */
+.refs-section{padding:100px 24px;background:var(--gray-bg)}
+.refs-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-top:52px}
+.ref-card{background:var(--white);border-radius:var(--radius);padding:36px 32px;border:1px solid var(--gray-mid);transition:all .3s}
+.ref-card:hover{box-shadow:var(--shadow);transform:translateY(-2px)}
+.ref-client{font-family:var(--font-d);font-weight:800;font-size:16px;color:var(--navy);margin-bottom:6px;letter-spacing:.5px}
+.ref-period{font-size:12px;color:var(--gray-text);margin-bottom:18px;font-family:var(--font-m)}
+.ref-quote{font-size:14px;color:#374151;line-height:1.75;font-style:italic;margin-bottom:24px;border-left:3px solid var(--cyan);padding-left:14px}
+.ref-stats{display:flex;gap:20px}
+.ref-stat .n{font-family:var(--font-m);font-size:20px;font-weight:500;color:var(--navy)}
+.ref-stat .l{font-size:11px;color:var(--gray-text);margin-top:2px}
+
+/* ── CTA FINAL ── */
+.cta-section{background:var(--navy-deep);padding:100px 24px;text-align:center;position:relative;overflow:hidden}
+.cta-inner{position:relative;z-index:1;max-width:640px;margin:0 auto}
+.cta-eyebrow{font-family:var(--font-m);font-size:11px;letter-spacing:2.5px;color:var(--cyan);text-transform:uppercase;margin-bottom:24px}
+.cta-title{font-family:var(--font-d);font-size:clamp(28px,4vw,48px);font-weight:800;color:var(--white);margin-bottom:16px;line-height:1.15}
+.cta-sub{font-size:16px;color:rgba(255,255,255,.5);margin-bottom:44px;line-height:1.75}
+.cta-buttons{display:flex;gap:16px;justify-content:center;flex-wrap:wrap}
+
+/* ── FOOTER ── */
+.footer{background:#1B2D6B;padding:60px 24px 32px}
+.footer-inner{max-width:1100px;margin:0 auto}
+.footer-top{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:48px;padding-bottom:48px;border-bottom:1px solid rgba(255,255,255,.07)}
+.footer-brand{}
+.footer-brand .logo{font-family:var(--font-d);font-weight:800;font-size:18px;color:white;margin-bottom:6px;display:flex;align-items:center;gap:8px;cursor:pointer}
+.footer-brand .logo .dot{width:7px;height:7px;background:var(--cyan);border-radius:50%}
+.footer-brand .logo-sub{font-family:var(--font-m);font-size:9px;color:rgba(255,255,255,.25);letter-spacing:2px;margin-bottom:16px}
+.footer-brand p{font-size:13px;color:rgba(255,255,255,.35);line-height:1.75;max-width:280px}
+.footer-col h4{font-family:var(--font-d);font-size:11px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:rgba(255,255,255,.3);margin-bottom:18px}
+.footer-col a{display:block;font-size:13px;color:rgba(255,255,255,.45);margin-bottom:11px;transition:color .2s;cursor:pointer}
+.footer-col a:hover{color:var(--cyan)}
+.footer-bottom{display:flex;justify-content:space-between;align-items:center;padding-top:28px;flex-wrap:wrap;gap:12px}
+.footer-bottom p{font-size:11px;color:rgba(255,255,255,.2);font-family:var(--font-m)}
+
+/* ── SOUS PAGES ── */
+.page{display:none;min-height:100vh}
+.page.active{display:block}
+#page-home{display:block}
+.page-hero{padding:140px 24px 80px;text-align:center;position:relative}
+.back-btn{position:absolute;top:28px;left:28px;display:inline-flex;align-items:center;gap:8px;font-family:var(--font-d);font-size:14px;font-weight:600;color:rgba(255,255,255,.65);background:none;border:none;cursor:pointer;transition:color .2s}
+.back-btn:hover{color:var(--cyan)}
+.back-btn svg{width:18px;height:18px;stroke:currentColor;stroke-width:2;fill:none;stroke-linecap:round}
+.page-eyebrow{font-family:var(--font-m);font-size:11px;letter-spacing:2.5px;text-transform:uppercase;margin-bottom:20px}
+.page-hero h1{font-family:var(--font-d);font-size:clamp(32px,5vw,60px);font-weight:800;color:white;margin-bottom:16px;max-width:700px;margin-left:auto;margin-right:auto;line-height:1.1}
+.page-hero p{font-size:17px;color:rgba(255,255,255,.6);max-width:540px;margin:0 auto 44px;line-height:1.75}
+.page-stats{display:flex;gap:48px;justify-content:center;flex-wrap:wrap}
+.page-stat .n{font-family:var(--font-m);font-size:34px;font-weight:500;line-height:1}
+.page-stat .l{font-size:11px;color:rgba(255,255,255,.4);margin-top:5px}
+.content-section{padding:80px 24px;max-width:1100px;margin:0 auto}
+.content-section h2{font-family:var(--font-d);font-size:30px;font-weight:800;color:var(--navy);margin-bottom:14px}
+.content-section>p{font-size:16px;color:var(--gray-text);max-width:620px;line-height:1.75;margin-bottom:32px}
+
+/* Calculateur */
+.calc-box{background:var(--navy);border-radius:20px;padding:40px;color:white;margin-top:40px}
+.calc-box h3{font-family:var(--font-d);font-size:22px;font-weight:700;margin-bottom:24px}
+.calc-row{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-bottom:20px}
+.calc-field label{display:block;font-size:11px;color:rgba(255,255,255,.45);margin-bottom:8px;font-family:var(--font-m);letter-spacing:.5px;text-transform:uppercase}
+.calc-field input[type=range]{width:100%;accent-color:var(--cyan)}
+.calc-field .val{font-family:var(--font-m);font-size:18px;color:var(--cyan);margin-top:6px}
+.calc-result{background:rgba(0,174,239,.12);border:1px solid rgba(0,174,239,.3);border-radius:12px;padding:24px;text-align:center}
+.calc-result .economy{font-family:var(--font-m);font-size:42px;color:var(--cyan);font-weight:500}
+.calc-result .sub{font-size:13px;color:rgba(255,255,255,.45);margin-top:6px}
+
+/* Tableau comparatif */
+.comparison-table{width:100%;border-radius:14px;overflow:hidden;border:1px solid var(--gray-mid);margin-top:40px}
+.comparison-table table{width:100%;border-collapse:collapse}
+.comparison-table th{padding:14px 18px;font-family:var(--font-d);font-size:13px;font-weight:700;text-align:left;background:var(--navy);color:white}
+.comparison-table td{padding:12px 18px;font-size:13px;color:#374151;border-bottom:1px solid var(--gray-mid)}
+.comparison-table tr:last-child td{border-bottom:none}
+.comparison-table tr:hover td{background:var(--gray-bg)}
+.comparison-table .highlight{background:#EFF6FF!important;font-weight:700;color:var(--navy)}
+
+/* Garanties */
+.guarantees-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px;margin-top:40px}
+.guarantee-item{display:flex;gap:14px;align-items:flex-start;background:var(--gray-bg);border-radius:10px;padding:20px}
+.guarantee-icon{width:36px;height:36px;background:#EEF2FF;border-radius:8px;display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.guarantee-icon svg{width:18px;height:18px;stroke:var(--navy);stroke-width:2;fill:none;stroke-linecap:round}
+.guarantee-item h4{font-family:var(--font-d);font-size:14px;font-weight:700;color:var(--navy);margin-bottom:4px}
+.guarantee-item p{font-size:13px;color:var(--gray-text);line-height:1.55}
+
+/* Academy */
+.school-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:20px;margin-top:40px}
+.school-card{background:var(--white);border-radius:var(--radius);padding:28px;border:1px solid var(--gray-mid);transition:all .3s}
+.school-card:hover{box-shadow:var(--shadow);transform:translateY(-2px)}
+.school-card h3{font-family:var(--font-d);font-size:17px;font-weight:700;color:var(--navy);margin-bottom:8px}
+.school-card p{font-size:13px;color:var(--gray-text);line-height:1.65}
+.school-tag{font-family:var(--font-m);font-size:10px;letter-spacing:1px;text-transform:uppercase;color:var(--gold);margin-bottom:10px}
+
+/* AI */
+.ai-phases{display:flex;flex-direction:column;gap:0;margin-top:40px}
+.ai-phase{display:flex;gap:24px;padding:28px 0;border-bottom:1px solid var(--gray-mid)}
+.ai-phase:last-child{border-bottom:none}
+.ai-phase-num{font-family:var(--font-m);font-size:22px;font-weight:500;color:var(--cyan);min-width:40px;padding-top:3px}
+.ai-phase h4{font-family:var(--font-d);font-size:16px;font-weight:700;color:var(--navy);margin-bottom:6px}
+.ai-phase p{font-size:14px;color:var(--gray-text);line-height:1.65}
+.ai-phase .price{font-family:var(--font-m);font-size:13px;color:#5B21B6;font-weight:500;margin-top:6px}
+
+/* Why sub-section */
+.talent-loop{background:var(--navy);border-radius:20px;padding:40px;margin-top:40px}
+.talent-loop h3{font-family:var(--font-d);font-size:22px;font-weight:700;color:white;margin-bottom:28px}
+.loop-steps{display:flex;flex-direction:column;gap:0}
+.loop-step{display:flex;gap:20px;padding:20px 0;border-bottom:1px solid rgba(255,255,255,.08)}
+.loop-step:last-child{border-bottom:none}
+.loop-step-num{font-family:var(--font-m);font-size:11px;color:var(--cyan);min-width:40px;padding-top:3px}
+.loop-step h4{font-family:var(--font-d);font-size:15px;font-weight:700;color:white;margin-bottom:4px}
+.loop-step p{font-size:13px;color:rgba(255,255,255,.45);line-height:1.65}
+
+/* Mobile */
+.mobile-nav{display:none;position:fixed;inset:0;z-index:8500;background:#1B2D6B;flex-direction:column;align-items:center;justify-content:center;gap:32px}
+.mobile-nav.open{display:flex}
+.mobile-nav a{font-family:var(--font-d);font-size:22px;font-weight:700;color:#FFFFFF;cursor:pointer}
+.mobile-nav a:hover{color:var(--cyan)}
+.mobile-close{position:absolute;top:24px;right:24px;background:none;border:none;cursor:pointer;color:#FFFFFF;font-size:28px}
+
+/* Btn standard */
+.btn-primary{background:var(--cyan);color:var(--navy-deep);font-family:var(--font-d);font-weight:700;font-size:15px;padding:15px 32px;border-radius:10px;border:none;cursor:pointer;display:inline-flex;align-items:center;gap:8px;transition:all .22s;text-decoration:none}
+.btn-primary:hover{background:var(--cyan-light);transform:translateY(-2px);box-shadow:0 8px 24px rgba(0,174,239,.35)}
+.btn-secondary{background:transparent;color:rgba(255,255,255,.8);font-family:var(--font-d);font-weight:600;font-size:15px;padding:15px 32px;border-radius:10px;border:1px solid rgba(255,255,255,.2);cursor:pointer;display:inline-flex;align-items:center;gap:8px;transition:all .22s;text-decoration:none}
+.btn-secondary:hover{border-color:rgba(255,255,255,.5);color:white;transform:translateY(-1px)}
+.ic{width:16px;height:16px;stroke:currentColor;stroke-width:2;fill:none;stroke-linecap:round}
+
+@media(max-width:900px){
+  .nav{padding:16px 24px}.nav.scrolled{padding:12px 24px}.nav-links{display:none}.nav-menu-btn{display:flex}
+  .doors{grid-template-columns:1fr}.why-grid{grid-template-columns:1fr}.refs-grid{grid-template-columns:1fr}
+  .footer-top{grid-template-columns:1fr 1fr;gap:32px}.guarantees-grid,.school-grid,.calc-row,.why-problem-grid,.moat-grid{grid-template-columns:1fr}
+  .loop-diagram{gap:0;flex-wrap:wrap;justify-content:center}.loop-arrow{transform:rotate(90deg);margin:0}.loop-node{min-width:90px}
+  .why-proof-bar{grid-template-columns:repeat(2,1fr)}
+}
+@media(max-width:600px){.footer-top{grid-template-columns:1fr}.hero-stats{gap:28px}.page-stats{gap:24px}.why-proof-bar{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav class="nav" id="mainNav">
+  <div class="nav-left">
+    <a href="https://galimatech.com/" class="nav-back-pill" title="Retour au site principal Galimatech">
+      <svg viewBox="0 0 24 24"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>Retour
+    </a>
+    <div class="nav-logo">
+      <img src="logo-GAlimatech.png">
+    </div>
+  </div>
+  <div class="nav-links">
+    <div class="nav-item">
+      <a href="galimatechprime/Index.html" target="_blank" rel="noopener">Nearshore France <svg class="nav-caret" viewBox="0 0 24 24"><path d="M6 9l6 6 6-6"/></svg></a>
+      <div class="nav-dropdown">
+        <a href="galimatechprime#pourquoi-senegal" target="_blank" rel="noopener">Pourquoi le Sénégal ?</a>
+        <a href="galimatechprime#solutions" target="_blank" rel="noopener">Solutions</a>
+        <a href="galimatechprime#references" target="_blank" rel="noopener">Références</a>
+        <a href="galimatechprime#garanties" target="_blank" rel="noopener">Garanties</a>
+      </div>
+    </div>
+    <div class="nav-item">
+      <a href="https://sn.galimatech.com/" target="_blank" rel="noopener">ESN Afrique <svg class="nav-caret" viewBox="0 0 24 24"><path d="M6 9l6 6 6-6"/></svg></a>
+      <div class="nav-dropdown">
+        <a href="https://sn.galimatech.com/" target="_blank" rel="noopener">Accueil</a>
+        <a href="https://sn.galimatech.com/?page_id=4355" target="_blank" rel="noopener">A propos</a>
+        <a href="https://sn.galimatech.com/?page_id=1744" target="_blank" rel="noopener">Services</a>
+        <a href="https://sn.galimatech.com/?page_id=1864" target="_blank" rel="noopener">Réalisations</a>
+      </div>
+    </div>
+    <div class="nav-item">
+      <a href="index.html" target="_blank" rel="noopener">Galima Academy <svg class="nav-caret" viewBox="0 0 24 24"><path d="M6 9l6 6 6-6"/></svg></a>
+      <div class="nav-dropdown">
+        <a href="index.html#accueil" target="_blank" rel="noopener">Accueil</a>
+        <a href="index.html#formation" target="_blank" rel="noopener">Formations</a>
+        <a href="index.html#parcours" target="_blank" rel="noopener">Planning</a>
+        <a href="index.html#inscription" target="_blank" rel="noopener">S'inscrire</a>
+      </div>
+    </div>
+    <a href="ai-advisory.html">AI Advisory</a>
+    <a href="#" onclick="showPage('page-why')">Pourquoi nous</a>
+    <a href="#" onclick="showPage('page-nearshore')" class="nav-cta">Démarrer</a>
+  </div>
+  <button class="nav-menu-btn" onclick="toggleMobileNav()" aria-label="Menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<div class="mobile-nav" id="mobileNav">
+  <button class="mobile-close" onclick="toggleMobileNav()">✕</button>
+  <a href="https://galimatech.com/" class="nav-back-pill">
+    <svg viewBox="0 0 24 24"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>Retour
+  </a>
+  <div class="nav-item">
+    <a href="https://galimatech.com/" target="_blank" rel="noopener">Nearshore France</a>
+    <div class="nav-dropdown">
+      <a href="https://galimatech.com/#pourquoi-senegal" target="_blank" rel="noopener">Pourquoi le Sénégal ?</a>
+      <a href="https://galimatech.com/#solutions" target="_blank" rel="noopener">Solutions</a>
+      <a href="https://galimatech.com/#references" target="_blank" rel="noopener">Références</a>
+      <a href="https://galimatech.com/#garanties" target="_blank" rel="noopener">Garanties</a>
+    </div>
+  </div>
+  <div class="nav-item">
+    <a href="https://sn.galimatech.com/" target="_blank" rel="noopener">ESN Afrique</a>
+    <div class="nav-dropdown">
+      <a href="https://sn.galimatech.com/" target="_blank" rel="noopener">Accueil</a>
+      <a href="https://sn.galimatech.com/?page_id=4355" target="_blank" rel="noopener">A propos</a>
+      <a href="https://sn.galimatech.com/?page_id=1744" target="_blank" rel="noopener">Services</a>
+      <a href="https://sn.galimatech.com/?page_id=1864" target="_blank" rel="noopener">Réalisations</a>
+    </div>
+  </div>
+  <div class="nav-item">
+    <a href="https://senegal2.github.io/galima-academy/" target="_blank" rel="noopener">Galima Academy</a>
+    <div class="nav-dropdown">
+      <a href="https://senegal2.github.io/galima-academy/" target="_blank" rel="noopener">Accueil</a>
+      <a href="https://senegal2.github.io/galima-academy/#formations" target="_blank" rel="noopener">Formations</a>
+      <a href="https://senegal2.github.io/galima-academy/#planning" target="_blank" rel="noopener">Planning</a>
+      <a href="https://senegal2.github.io/galima-academy/#inscription" target="_blank" rel="noopener">S'inscrire</a>
+    </div>
+  </div>
+  <a href="ai-advisory.html">AI Advisory</a>
+  <a onclick="showPage('page-why');toggleMobileNav()">Pourquoi nous</a>
+</div>
+
+<!-- ════════════════════════════════════════════
+     PAGE ACCUEIL
+════════════════════════════════════════════ -->
+<div id="page-home" class="page active">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-slides">
+      <div class="hero-slide active" style="background-image:url('https://images.unsplash.com/photo-1758873268745-dd2cf0d677b5?auto=format&fit=crop&w=1920&q=80')"></div>
+      <div class="hero-slide" style="background-image:url('https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1920&q=80')"></div>
+      <div class="hero-slide" style="background-image:url('https://images.unsplash.com/photo-1573164574572-cb89e39749b4?auto=format&fit=crop&w=1920&q=80')"></div>
+    </div>
+    <div class="hero-overlay"></div>
+    <div class="hero-grid"></div>
+    <div class="hero-glow"></div>
+    <div class="hero-eyebrow">Teams · Technology · Galimatech</div>
+    <h1 class="hero-main">La transformation numérique ne s'achète pas.<br><span>Elle se construit.</span></h1>
+    <p class="hero-tagline">
+      Nous n'installons pas des outils. Nous <span class="hl">formons vos équipes, déployons la technologie</span> et bâtissons les talents qui font durer le changement.
+    </p>
+    <div class="hero-from">
+      <div class="hero-from-item"><span>Fondée</span> en 2015 · Dakar</div>
+      <div class="hero-from-sep"></div>
+      <div class="hero-from-item"><span>Depuis Dakar</span> pour l'Afrique</div>
+      <div class="hero-from-sep"></div>
+      <div class="hero-from-item"><span>Pour l'Europe</span> et au-delà</div>
+    </div>
+    <div class="hero-cta-group">
+      <a href="#" onclick="scrollToSection()" class="btn-hero">
+        Quelle est votre priorité ?
+        <svg class="ic" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+      </a>
+      <a href="#" onclick="showPage('page-why')" class="btn-hero-ghost">
+        Pourquoi Galimatech ?
+      </a>
+    </div>
+    <div class="hero-stats">
+      <div class="hero-stat"><div class="num">100+</div><div class="lbl">Projets livrés</div></div>
+      <div class="hero-stat"><div class="num">4</div><div class="lbl">Business Units</div></div>
+      <div class="hero-stat"><div class="num">25</div><div class="lbl">Formations certifiées</div></div>
+      <div class="hero-stat"><div class="num">10+</div><div class="lbl">Années d'expérience</div></div>
+    </div>
+    <div class="hero-scroll">
+      <span>Explorer</span>
+      <svg viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,.3)" stroke-width="2" stroke-linecap="round">
+        <path d="M12 5v14M5 12l7 7 7-7"/>
+      </svg>
+    </div>
+    <div class="hero-dots">
+      <button class="hero-dot active" onclick="goToHeroSlide(0)" aria-label="Slide 1"></button>
+      <button class="hero-dot" onclick="goToHeroSlide(1)" aria-label="Slide 2"></button>
+      <button class="hero-dot" onclick="goToHeroSlide(2)" aria-label="Slide 3"></button>
+    </div>
+  </section>
+
+  <!-- BOUCLE SCHÉMA -->
+  <section class="loop-section">
+    <div class="loop-inner">
+      <div class="section-eyebrow">Notre modèle unique</div>
+      <h2 class="section-title">La boucle que personne ne peut copier</h2>
+      <p class="section-sub">Galimatech est le seul acteur en Afrique de l'Ouest qui ferme la boucle entre client, technologie, talent, IA et impact — sous un même toit.</p>
+      <div class="loop-diagram">
+        <!-- CLIENT -->
+        <div class="loop-node">
+          <div class="loop-icon loop-icon-client">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+          </div>
+          <div class="loop-label">Vous<br>avez un besoin</div>
+          <div class="loop-sub">Recrutement, transformation, formation ou IA</div>
+        </div>
+        <div class="loop-arrow"><svg viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg></div>
+        <!-- TECHNOLOGY -->
+        <div class="loop-node">
+          <div class="loop-icon loop-icon-tech">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"/></svg>
+          </div>
+          <div class="loop-label">Galimatech<br>construit</div>
+          <div class="loop-sub">Teams nearshore ou Technology ESN</div>
+        </div>
+        <div class="loop-arrow"><svg viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg></div>
+        <!-- TALENT -->
+        <div class="loop-node">
+          <div class="loop-icon loop-icon-talent">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M22 10v6M2 10l10-5 10 5-10 5-10-5z"/><path d="M6 12v5c0 2.21 2.686 4 6 4s6-1.79 6-4v-5"/></svg>
+          </div>
+          <div class="loop-label">Galima Academy<br>forme</div>
+          <div class="loop-sub">Nos talents sur vos projets réels</div>
+        </div>
+        <div class="loop-arrow"><svg viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg></div>
+        <!-- AI -->
+        <div class="loop-node">
+          <div class="loop-icon loop-icon-ai">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M12 2a7 7 0 017 7c0 3.5-2 6-5 7.4V18a2 2 0 11-4 0v-1.6C7 15 5 12.5 5 9a7 7 0 017-7z"/><circle cx="12" cy="9" r="2"/></svg>
+          </div>
+          <div class="loop-label">AI Advisory<br>déploie</div>
+          <div class="loop-sub">Cas d'usage IA en production</div>
+        </div>
+        <div class="loop-arrow"><svg viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg></div>
+        <!-- IMPACT -->
+        <div class="loop-node">
+          <div class="loop-icon loop-icon-impact">
+            <svg viewBox="0 0 24 24" fill="none"><polyline points="22 7 13.5 15.5 8.5 10.5 2 17"/><polyline points="16 7 22 7 22 13"/></svg>
+          </div>
+          <div class="loop-label">Impact<br>mesurable</div>
+          <div class="loop-sub">ROI réel, emplois créés, organisations transformées</div>
+        </div>
+      </div>
+      <div class="loop-back">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--cyan)" stroke-width="2" stroke-linecap="round"><path d="M3 12a9 9 0 1018 0 9 9 0 00-18 0zM12 8v4l3 3"/></svg>
+        <span class="loop-back-text">Chaque mission produit un actif réutilisable → nourrit les formations suivantes</span>
+      </div>
+    </div>
+  </section>
+  <!-- 4 PORTES -->
+  <section class="question-section" id="besoins">
+    <div class="question-label">Votre priorité</div>
+    <h2 class="question-title">Comment pouvons-nous vous aider ?</h2>
+    <p class="question-sub">Choisissez votre besoin. Nous mobilisons la bonne capacité.</p>
+  </section>
+  <div class="doors">
+    <!-- Porte 1 -->
+    <div class="door door-1" onclick="showPage('page-nearshore')">
+      <div class="door-header">
+        <div class="door-icon-bg"><svg viewBox="0 0 24 24"><circle cx="9" cy="7" r="3"/><path d="M3 21v-2a4 4 0 014-4h4"/><circle cx="17" cy="11" r="3"/><path d="M11 21v-2a4 4 0 014-4h4a4 4 0 014 4v2"/></svg></div>
+        <span class="door-number">01 / 04</span>
+      </div>
+      <span class="door-tag">Teams · Nearshore France</span>
+      <div class="door-problem">Vous avez ce problème →</div>
+      <h3 class="door-question">Vous devez recruter rapidement des profils tech sans exploser votre budget</h3>
+      <p class="door-desc">Développeurs seniors, QA, DevOps, Data Scientists francophones — intégrés en 72h, -50% vs équipe locale. Standards parisiens, base dakaroise.</p>
+      <div class="door-chips"><span class="door-chip">Développeurs</span><span class="door-chip">DevOps</span><span class="door-chip">Data</span><span class="door-chip">PMO</span><span class="door-chip">QA</span></div>
+      <span class="door-cta">Construire mon équipe <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg></span>
+    </div>
+    <!-- Porte 2 -->
+    <div class="door door-2" onclick="showPage('page-africa')">
+      <div class="door-header">
+        <div class="door-icon-bg"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><path d="M14 17.5h7M17.5 14v7"/></svg></div>
+        <span class="door-number">02 / 04</span>
+      </div>
+      <span class="door-tag">Technology · ESN Afrique</span>
+      <div class="door-problem">Vous avez ce problème →</div>
+      <h3 class="door-question">Vous voulez transformer votre organisation et avez besoin d'un partenaire tech durable</h3>
+      <p class="door-desc">Nous construisons la solution. Nous formons vos équipes. Nous restons. ERP, cloud, IA, développement sur mesure pour les entreprises et administrations africaines.</p>
+      <div class="door-chips"><span class="door-chip">Transformation digitale</span><span class="door-chip">IA & Data</span><span class="door-chip">Cloud</span><span class="door-chip">Dev sur mesure</span></div>
+      <span class="door-cta">Découvrir nos solutions <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg></span>
+    </div>
+    <!-- Porte 3 -->
+    <div class="door door-3" onclick="showPage('page-academy')">
+      <div class="door-header">
+        <div class="door-icon-bg"><svg viewBox="0 0 24 24"><path d="M22 10v6M2 10l10-5 10 5-10 5-10-5z"/><path d="M6 12v5c0 2.21 2.686 4 6 4s6-1.79 6-4v-5"/></svg></div>
+        <span class="door-number">03 / 04</span>
+      </div>
+      <span class="door-tag">Talent · Galima Academy</span>
+      <div class="door-problem">Vous avez ce problème →</div>
+      <h3 class="door-question">Vos équipes doivent monter en compétences sur le numérique et l'IA</h3>
+      <p class="door-desc">25 formations certifiées, finançables ONFP. 80% pratique. Stage réel sur projets France. Le seul institute qui forme ET emploie dans le numérique.</p>
+      <div class="door-chips"><span class="door-chip">Formations IA</span><span class="door-chip">Dev Web</span><span class="door-chip">Executive</span><span class="door-chip">ONFP</span></div>
+      <span class="door-cta">Découvrir l'Academy <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg></span>
+    </div>
+    <!-- Porte 4 -->
+    <div class="door door-4" onclick="window.location.href='ai-advisory.html'">
+      <div class="door-header">
+        <div class="door-icon-bg"><svg viewBox="0 0 24 24"><path d="M12 2a7 7 0 017 7c0 3.5-2 6-5 7.4V18a2 2 0 11-4 0v-1.6C7 15 5 12.5 5 9a7 7 0 017-7z"/><circle cx="12" cy="9" r="2"/></svg></div>
+        <span class="door-number">04 / 04</span>
+      </div>
+      <span class="door-tag">AI · Advisory</span>
+      <div class="door-problem">Vous avez ce problème →</div>
+      <h3 class="door-question">Vous voulez déployer l'IA mais ne savez pas par où commencer</h3>
+      <p class="door-desc">Nous commençons par un diagnostic de 2 semaines. Cartographie de vos processus, 3 cas d'usage prioritaires, business case et feuille de route. De la stratégie au ROI mesuré.</p>
+      <div class="door-chips"><span class="door-chip">Audit IA</span><span class="door-chip">Feuille de route</span><span class="door-chip">Déploiement</span><span class="door-chip">ROI</span></div>
+      <span class="door-cta">Explorer l'IA <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg></span>
+    </div>
+  </div>
+  <!-- PROOF LOGOS -->
+  <div class="proof-strip">
+    <div class="label">Références clients & partenaires institutionnels</div>
+    <div class="proof-logos">
+      <div class="proof-logo">STELLANTIS<div class="proof-type">Client France</div></div>
+      <div class="proof-sep"></div>
+      <div class="proof-logo">ALTEN GROUP<div class="proof-type">Client France</div></div>
+      <div class="proof-sep"></div>
+      <div class="proof-logo">HUBSAN<div class="proof-type">Client France</div></div>
+      <div class="proof-sep"></div>
+      <div class="proof-logo">ONFP<div class="proof-type">Agréé Sénégal</div></div>
+      <div class="proof-sep"></div>
+      <div class="proof-logo">3FPT<div class="proof-type">Agréé Sénégal</div></div>
+      <div class="proof-sep"></div>
+      <div class="proof-logo">MEFPT<div class="proof-type">Partenaire Public</div></div>
+      <div class="proof-sep"></div>
+      <div class="proof-logo">RAFPRO<div class="proof-type">Réseau 13 pays</div></div>
+    </div>
+  </div>
+
+  <!-- WHY SECTION (résumé homepage) -->
+  <section class="why-section">
+    <div class="hero-grid"></div>
+    <div class="why-inner">
+      <div class="why-eyebrow">Pourquoi Galimatech</div>
+      <h2 class="why-title">Un modèle que <span>personne</span><br>ne peut répliquer rapidement</h2>
+      <p class="why-intro">Nous ne sommes pas une ESN parmi d'autres. Nous sommes le seul acteur qui contrôle la formation, le déploiement tech et l'emploi sous un même toit — avec des clients réels en France depuis 10 ans.</p>
+      <div class="why-grid">
+        <div class="why-item">
+          <div class="why-num">01</div>
+          <div class="why-item-title">We Build Teams</div>
+          <div class="why-item-sub">Nearshore France</div>
+          <p class="why-item-desc">Vos développeurs à Dakar avec les standards Paris. Intégration 72h, économies garanties contractuellement, français natifs. Nos profils ne viennent pas de plateformes freelance — ils sortent de Galima Academy.</p>
+          <a class="why-link" href="#" onclick="showPage('page-nearshore')">Voir l'offre nearshore <svg viewBox="0 0 24 24" stroke-linecap="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+        </div>
+        <div class="why-item">
+          <div class="why-num">02</div>
+          <div class="why-item-title">We Build Technology</div>
+          <div class="why-item-sub">ESN Afrique</div>
+          <p class="why-item-desc">Dev logiciel, IA, cloud et transformation digitale pour les entreprises et administrations africaines. Nous construisons. Nous formons vos équipes. Nous restons — pas de livraison et disparition.</p>
+          <a class="why-link" href="#" onclick="showPage('page-africa')">Voir l'offre ESN <svg viewBox="0 0 24 24" stroke-linecap="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+        </div>
+        <div class="why-item">
+          <div class="why-num">03</div>
+          <div class="why-item-title">We Build Talent</div>
+          <div class="why-item-sub">Galima Academy</div>
+          <p class="why-item-desc">L'institute qui forme les talents dont le groupe a besoin — puis les met sur des projets clients réels. 87% d'insertion à 6 mois. Stage France garanti sur les parcours longs. Finançable ONFP/3FPT.</p>
+          <a class="why-link" href="#" onclick="showPage('page-academy')">Voir l'Academy <svg viewBox="0 0 24 24" stroke-linecap="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+        </div>
+      </div>
+      <div class="why-proof-bar">
+        <div class="why-proof-item"><div class="n">10+</div><div class="l">Années opérations nearshore France</div></div>
+        <div class="why-proof-item"><div class="n">-50%</div><div class="l">Coûts IT garantis contractuellement</div></div>
+        <div class="why-proof-item"><div class="n">87%</div><div class="l">Taux insertion apprenants à 6 mois</div></div>
+        <div class="why-proof-item"><div class="n">25</div><div class="l">Formations certifiées ONFP/3FPT</div></div>
+        <div class="why-proof-item"><div class="n">100+</div><div class="l">Projets livrés France + Afrique</div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- REFS -->
+  <section class="refs-section">
+    <div style="max-width:1100px;margin:0 auto">
+      <div class="section-eyebrow">Résultats clients</div>
+      <h2 class="section-title">Ce que nos partenaires disent</h2>
+      <div class="refs-grid">
+        <div class="ref-card">
+          <div class="ref-client">STELLANTIS</div>
+          <div class="ref-period">Partenariat continu · 8 ans</div>
+          <div class="ref-quote">"Après 1 mois, on ne voyait plus la différence avec une équipe à Paris. Qualité de code supérieure et réduction significative des coûts."</div>
+          <div class="ref-stats">
+            <div class="ref-stat"><div class="n">-70%</div><div class="l">Temps reporting</div></div>
+            <div class="ref-stat"><div class="n">+30%</div><div class="l">Productivité</div></div>
+            <div class="ref-stat"><div class="n">4 mois</div><div class="l">ROI atteint</div></div>
+          </div>
+        </div>
+        <div class="ref-card">
+          <div class="ref-client">ALTEN GROUP</div>
+          <div class="ref-period">Collaboration continue · 8 ans</div>
+          <div class="ref-quote">"180K€ économisés sur 12 mois. La qualité du code a dépassé celle de notre équipe locale selon l'audit interne."</div>
+          <div class="ref-stats">
+            <div class="ref-stat"><div class="n">180K€</div><div class="l">Économies / an</div></div>
+            <div class="ref-stat"><div class="n">3 sem.</div><div class="l">Scaling ×3</div></div>
+            <div class="ref-stat"><div class="n">100%</div><div class="l">Satisfaction</div></div>
+          </div>
+        </div>
+        <div class="ref-card">
+          <div class="ref-client">HUBSAN</div>
+          <div class="ref-period">Collaboration continue · 3 ans</div>
+          <div class="ref-quote">"Trois renouvellements annuels consécutifs. SLA respectés à 99,8%. Relation de confiance construite sur la durée."</div>
+          <div class="ref-stats">
+            <div class="ref-stat"><div class="n">99.8%</div><div class="l">SLA respectés</div></div>
+            <div class="ref-stat"><div class="n">-40%</div><div class="l">Coûts vs interne</div></div>
+            <div class="ref-stat"><div class="n">×3</div><div class="l">Renouvellements</div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- CTA FINAL -->
+  <section class="cta-section">
+    <div class="hero-grid"></div>
+    <div class="hero-glow"></div>
+    <div class="cta-inner">
+      <div class="cta-eyebrow">Commençons</div>
+      <h2 class="cta-title">Quelle est votre priorité cette semaine ?</h2>
+      <p class="cta-sub">Un échange de 30 minutes suffit pour identifier la bonne capacité — Teams, Technology, Talent ou AI.</p>
+      <div class="cta-buttons">
+        <a href="mailto:contact@galimatech.com" class="btn-primary">Planifier un échange <svg class="ic" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+        <a href="#" onclick="showPage('page-why')" class="btn-secondary">Pourquoi nous choisir ?</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="logo" onclick="showPage('page-home')"><img src="data:image/png;base64,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" alt="Galimatech" style="height:22px;width:auto;display:block"></div>
+          <div class="logo-sub">BUILDING DIGITAL CAPABILITIES</div>
+          <p>Teams · Technology · Talent · AI<br>From Dakar, for Africa and Europe.<br><br>GALIMA SERVICES-SUARL</p>
+        </div>
+        <div class="footer-col">
+          <h4>Teams</h4>
+          <a onclick="showPage('page-nearshore')">Nearshore France</a>
+          <a onclick="showPage('page-nearshore')">Régie / Équipe dédiée</a>
+          <a onclick="showPage('page-nearshore')">Nos garanties</a>
+          <a onclick="showPage('page-nearshore')">Calculer mon économie</a>
+        </div>
+        <div class="footer-col">
+          <h4>Technology & Talent</h4>
+          <a onclick="showPage('page-africa')">ESN Afrique</a>
+          <a onclick="showPage('page-africa')">Transformation digitale</a>
+          <a onclick="showPage('page-academy')">Galima Academy</a>
+          <a onclick="showPage('page-academy')">25 formations ONFP</a>
+        </div>
+        <div class="footer-col">
+          <h4>AI & Groupe</h4>
+          <a href="ai-advisory.html">AI Advisory</a>
+          <a href="ai-advisory.html">AI Transformation Program</a>
+          <a onclick="showPage('page-why')">Pourquoi Galimatech</a>
+          <a href="mailto:contact@galimatech.com">Contact</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 Galima Services-SUARL · Galimatech · Dakar, Sénégal</p>
+        <p>contact@galimatech.com · +221 78 301 29 40 · +33 7 57 95 36 10</p>
+      </div>
+    </div>
+  </footer>
+</div><!-- /page-home -->
+
+
+<!-- ════════════════════════════════════════════
+     PAGE POURQUOI GALIMATECH
+════════════════════════════════════════════ -->
+<!-- ════════════════════════════════════════════
+     PAGE POURQUOI NOUS — VERSION COMPLÈTE
+════════════════════════════════════════════ -->
+<style>
+/* ── POURQUOI NOUS ── */
+.why-full-hero{min-height:85vh;background:var(--navy-deep);display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:120px 24px 80px;position:relative;overflow:hidden}
+.why-full-title{font-family:var(--font-d);font-size:clamp(36px,6vw,76px);font-weight:800;line-height:1.05;color:white;margin-bottom:20px;letter-spacing:-1px}
+.why-full-title .grad-cyan{background:linear-gradient(135deg,var(--cyan),#34D399);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+.why-full-sub{font-size:18px;color:rgba(255,255,255,.45);max-width:560px;margin:0 auto 52px;line-height:1.8}
+.why-full-stats{display:flex;gap:52px;justify-content:center;flex-wrap:wrap}
+.why-full-stat .n{font-family:var(--font-m);font-size:34px;font-weight:500;color:var(--cyan);line-height:1}
+.why-full-stat .l{font-size:11px;color:rgba(255,255,255,.35);margin-top:6px;letter-spacing:.5px}
+/* Problèmes */
+.why-problems{padding:80px 24px;background:var(--white)}
+.why-problems-inner{max-width:1100px;margin:0 auto}
+.why-prob-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-top:52px}
+.why-prob-card{border-radius:16px;padding:36px;border:1.5px solid;transition:all .3s;position:relative;overflow:hidden}
+.why-prob-card::after{content:'Votre situation';position:absolute;top:16px;right:16px;font-family:var(--font-m);font-size:9px;letter-spacing:1.5px;text-transform:uppercase;padding:3px 10px;border-radius:20px;opacity:.6}
+.why-prob-card:hover{transform:translateY(-2px);box-shadow:var(--shadow-lg)}
+.why-prob-q{font-family:var(--font-d);font-size:17px;font-weight:700;line-height:1.4;margin-bottom:14px}
+.why-prob-pain{font-size:14px;line-height:1.7;margin-bottom:20px;opacity:.75}
+.why-prob-divider{height:1.5px;margin-bottom:20px;opacity:.2;border-radius:2px}
+.why-prob-ans{display:flex;gap:10px;align-items:flex-start;margin-bottom:14px}
+.why-prob-arrow{font-size:18px;font-weight:700;flex-shrink:0;margin-top:1px}
+.why-prob-answer{font-size:14px;font-weight:600;line-height:1.5}
+.why-prob-proof{font-family:var(--font-m);font-size:11px;letter-spacing:.5px;margin-top:4px;opacity:.65}
+
+.why-prob-card.c1{background:#FFF5F5;border-color:#FCA5A5;color:#7F1D1D}
+.why-prob-card.c1::after{background:#FCA5A5;color:#7F1D1D}
+.why-prob-card.c1 .why-prob-arrow{color:#DC2626}
+.why-prob-card.c1 .why-prob-answer{color:#991B1B}
+.why-prob-card.c1 .why-prob-divider{background:#DC2626}
+
+.why-prob-card.c2{background:#FFFBEB;border-color:#FCD34D;color:#78350F}
+.why-prob-card.c2::after{background:#FCD34D;color:#78350F}
+.why-prob-card.c2 .why-prob-arrow{color:#D97706}
+.why-prob-card.c2 .why-prob-answer{color:#92400E}
+.why-prob-card.c2 .why-prob-divider{background:#D97706}
+
+.why-prob-card.c3{background:#EFF6FF;border-color:#00AEEF;color:#1B2D6B}
+.why-prob-card.c3::after{background:#93C5FD;color:#1B2D6B}
+.why-prob-card.c3 .why-prob-arrow{color:#00AEEF}
+.why-prob-card.c3 .why-prob-answer{color:#1B2D6B}
+.why-prob-card.c3 .why-prob-divider{background:#00AEEF}
+
+.why-prob-card.c4{background:#F0FDF4;border-color:#86EFAC;color:#14532D}
+.why-prob-card.c4::after{background:#86EFAC;color:#14532D}
+.why-prob-card.c4 .why-prob-arrow{color:#16A34A}
+.why-prob-card.c4 .why-prob-answer{color:#15803D}
+.why-prob-card.c4 .why-prob-divider{background:#16A34A}
+
+/* Notre ADN */
+.why-dna{padding:80px 24px;background:var(--gray-bg)}
+.why-dna-inner{max-width:1100px;margin:0 auto}
+.why-dna-grid{display:grid;grid-template-columns:1fr 1fr 1fr;gap:24px;margin-top:52px}
+.why-dna-card{background:var(--white);border-radius:16px;padding:36px;border:1px solid var(--gray-mid);transition:all .3s;position:relative}
+.why-dna-card:hover{box-shadow:var(--shadow-lg);transform:translateY(-3px)}
+.why-dna-num{font-family:var(--font-m);font-size:36px;font-weight:500;color:var(--gray-mid);position:absolute;top:24px;right:24px;line-height:1}
+.why-dna-icon{width:52px;height:52px;border-radius:14px;display:flex;align-items:center;justify-content:center;margin-bottom:22px}
+.why-dna-icon svg{width:26px;height:26px;stroke:white;stroke-width:1.75;fill:none;stroke-linecap:round;stroke-linejoin:round}
+.why-dna-title{font-family:var(--font-d);font-size:18px;font-weight:700;color:var(--navy);margin-bottom:10px;line-height:1.3}
+.why-dna-desc{font-size:14px;color:var(--gray-text);line-height:1.75;margin-bottom:18px}
+.why-dna-proof{font-family:var(--font-m);font-size:11px;font-weight:500;letter-spacing:.5px}
+/* La boucle narrative */
+.why-loop-section{padding:80px 24px;background:var(--navy)}
+.why-loop-inner{max-width:1000px;margin:0 auto}
+.why-loop-narrative{display:flex;flex-direction:column;gap:0;margin-top:52px}
+.why-loop-step{display:flex;gap:24px;padding:28px 0;border-bottom:1px solid rgba(255,255,255,.06);position:relative}
+.why-loop-step:last-child{border-bottom:none}
+.why-loop-icon{width:48px;height:48px;border-radius:12px;flex-shrink:0;display:flex;align-items:center;justify-content:center;margin-top:4px}
+.why-loop-icon svg{width:22px;height:22px;stroke:white;stroke-width:1.75;fill:none;stroke-linecap:round}
+.why-loop-label{font-family:var(--font-m);font-size:10px;letter-spacing:2px;text-transform:uppercase;color:var(--cyan);margin-bottom:6px}
+.why-loop-step-title{font-family:var(--font-d);font-size:18px;font-weight:700;color:white;margin-bottom:8px}
+.why-loop-step-desc{font-size:14px;color:rgba(255,255,255,.45);line-height:1.75}
+.why-loop-step-proof{font-family:var(--font-m);font-size:12px;color:var(--cyan);margin-top:10px}
+/* Tableau comparatif étendu */
+.why-comp{padding:80px 24px;background:var(--white)}
+.why-comp-inner{max-width:1100px;margin:0 auto}
+.why-comp-table{width:100%;border-radius:16px;overflow:hidden;border:1px solid var(--gray-mid);margin-top:52px}
+.why-comp-table table{width:100%;border-collapse:collapse}
+.why-comp-table th{padding:16px 20px;font-family:var(--font-d);font-size:13px;font-weight:700;text-align:left;background:var(--navy);color:white}
+.why-comp-table th:first-child{width:32%}
+.why-comp-table th.gali-col{background:#1B2D6B;color:var(--cyan)}
+.why-comp-table td{padding:14px 20px;font-size:13px;color:#374151;border-bottom:1px solid var(--gray-mid);vertical-align:middle}
+.why-comp-table tr:last-child td{border-bottom:none}
+.why-comp-table tr:hover td{background:var(--gray-bg)}
+.why-comp-table td.gali-col{background:#F0F4FF;font-weight:700;color:var(--navy)}
+.why-comp-table .chk{color:#059669;font-weight:700;font-size:16px}
+.why-comp-table .xmk{color:#DC2626;font-size:16px}
+.why-comp-table .wmk{color:#D97706}
+.why-comp-table .cat-row td{background:var(--gray-bg);font-family:var(--font-d);font-weight:700;color:var(--navy);font-size:12px;letter-spacing:.5px;text-transform:uppercase;padding:10px 20px}
+.why-comp-table .cat-row td.gali-col{background:#E8EDF8}
+/* Engagements */
+.why-commits{padding:80px 24px;background:var(--gray-bg)}
+.why-commits-inner{max-width:1100px;margin:0 auto}
+.why-commits-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-top:52px}
+.why-commit-item{background:var(--white);border-radius:14px;padding:28px;border:1px solid var(--gray-mid);display:flex;gap:16px;align-items:flex-start;transition:all .3s}
+.why-commit-item:hover{box-shadow:var(--shadow);transform:translateY(-2px)}
+.why-commit-num{font-family:var(--font-m);font-size:28px;font-weight:500;color:var(--cyan);min-width:44px;line-height:1;flex-shrink:0}
+.why-commit-item h4{font-family:var(--font-d);font-size:15px;font-weight:700;color:var(--navy);margin-bottom:6px}
+.why-commit-item p{font-size:13px;color:var(--gray-text);line-height:1.65}
+/* Chiffres consolidés */
+.why-numbers{padding:80px 24px;background:var(--navy-deep);position:relative;overflow:hidden}
+.why-numbers-inner{max-width:1100px;margin:0 auto;position:relative;z-index:1}
+.why-numbers-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:2px;margin-top:52px}
+.why-number-item{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.06);padding:36px 24px;text-align:center;transition:all .3s}
+.why-number-item:hover{background:rgba(0,174,239,.06);border-color:rgba(0,174,239,.15)}
+.why-number-n{font-family:var(--font-m);font-size:38px;font-weight:500;color:var(--cyan);line-height:1;margin-bottom:10px}
+.why-number-l{font-size:13px;color:rgba(255,255,255,.4);line-height:1.5}
+/* CTA final */
+.why-cta-final{padding:100px 24px;background:var(--navy);text-align:center;position:relative;overflow:hidden}
+.why-cta-final-inner{max-width:680px;margin:0 auto;position:relative;z-index:1}
+
+@media(max-width:900px){
+  .why-prob-grid{grid-template-columns:1fr}.why-dna-grid{grid-template-columns:1fr}.why-commits-grid{grid-template-columns:1fr}
+  .why-numbers-grid{grid-template-columns:repeat(2,1fr)}.why-comp-table{overflow-x:auto}
+}
+@media(max-width:600px){.why-numbers-grid{grid-template-columns:1fr}.why-full-stats{gap:28px}}
+</style>
+
+<div id="page-why" class="page">
+
+  <!-- HERO -->
+  <section class="why-full-hero">
+    <div class="hero-grid"></div>
+    <div class="hero-glow"></div>
+    <button class="back-btn" onclick="showPage('page-home')" style="position:absolute;top:28px;left:28px">
+      <svg viewBox="0 0 24 24"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>Retour
+    </button>
+    <div class="ai-badge" style="margin-bottom:28px"><div class="ai-badge-dot" style="background:var(--cyan)"></div><span class="ai-badge-text" style="color:var(--cyan)">Pourquoi Galimatech · Notre différence</span></div>
+    <h1 class="why-full-title">Nous ne sommes pas<br>dans la même <span class="grad-cyan">catégorie.</span></h1>
+    <p class="why-full-sub">La vraie question n'est pas "pourquoi Galimatech plutôt qu'une autre ESN". C'est "pourquoi Galimatech est le seul acteur qui peut tout faire sous un même toit".</p>
+    <div class="why-full-stats">
+      <div class="why-full-stat"><div class="n">10+</div><div class="l">Années nearshore France</div></div>
+      <div class="why-full-stat"><div class="n">4</div><div class="l">Business Units intégrés</div></div>
+      <div class="why-full-stat"><div class="n">87%</div><div class="l">Insertion apprenants Academy</div></div>
+      <div class="why-full-stat"><div class="n">-50%</div><div class="l">Coûts IT garantis</div></div>
+      <div class="why-full-stat"><div class="n">100+</div><div class="l">Projets livrés</div></div>
+    </div>
+  </section>
+
+  <!-- PROBLÈMES CLIENTS -->
+  <section class="why-problems">
+    <div class="why-problems-inner">
+      <div class="section-eyebrow">Vous reconnaissez-vous ?</div>
+      <h2 class="section-title">Les vrais problèmes que nous résolvons</h2>
+      <p class="section-sub">Pas des problèmes inventés pour vendre une solution. Des frustrations réelles que nous entendons à chaque premier appel.</p>
+      <div class="why-prob-grid">
+        <div class="why-prob-card c1">
+          <div class="why-prob-q">"J'ai recruté des développeurs sur une plateforme freelance. Six mois plus tard, le projet est bloqué."</div>
+          <div class="why-prob-pain">Profils non vérifiés, disponibilité incertaine, turnover élevé, qualité variable, aucune garantie. Vous recommencez à zéro à chaque projet.</div>
+          <div class="why-prob-divider"></div>
+          <div class="why-prob-ans"><span class="why-prob-arrow">→</span><span class="why-prob-answer">Nos profils sont formés en interne par Galima Academy, sélectionnés et employés directement. Pas de plateforme.</span></div>
+          <div class="why-prob-proof">Résultat Alten : 180K€ économisés · qualité supérieure à l'équipe locale (audit interne)</div>
+        </div>
+        <div class="why-prob-card c2">
+          <div class="why-prob-q">"On a payé 40 000€ de formation IA. Huit mois après, personne n'utilise les outils."</div>
+          <div class="why-prob-pain">Les formations classiques transmettent des slides. Elles ne transforment pas les pratiques, ne créent pas d'emploi, et n'ont pas de suivi d'impact réel.</div>
+          <div class="why-prob-divider"></div>
+          <div class="why-prob-ans"><span class="why-prob-arrow">→</span><span class="why-prob-answer">Galima Academy forme sur projets réels, évalue par livrable, et place en stage chez Galimatech France.</span></div>
+          <div class="why-prob-proof">87% d'insertion à 6 mois · Finançable ONFP/3FPT · 80% pratique terrain</div>
+        </div>
+        <div class="why-prob-card c3">
+          <div class="why-prob-q">"Un cabinet nous a vendu une stratégie IA pour 15M FCFA. Le rapport a fini dans un tiroir."</div>
+          <div class="why-prob-pain">La stratégie sans déploiement est de la théorie bien emballée. La plupart des consultants s'arrêtent à la feuille de route. Personne ne reste pour déployer.</div>
+          <div class="why-prob-divider"></div>
+          <div class="why-prob-ans"><span class="why-prob-arrow">→</span><span class="why-prob-answer">Notre AI Transformation Program va du diagnostic au ROI mesuré en 6 phases — Galimatech déploie les cas d'usage en production.</span></div>
+          <div class="why-prob-proof">Phase 1 : livrable en 2 semaines · Phase 6 : ROI documenté · 20-100M FCFA programme complet</div>
+        </div>
+        <div class="why-prob-card c4">
+          <div class="why-prob-q">"Je veux un partenaire qui connaît à la fois les standards tech européens et les réalités africaines."</div>
+          <div class="why-prob-pain">Les ESN parisiennes ne connaissent pas l'Afrique. Les prestataires locaux n'ont pas de référence internationale. Ce sont toujours deux mondes séparés.</div>
+          <div class="why-prob-divider"></div>
+          <div class="why-prob-ans"><span class="why-prob-arrow">→</span><span class="why-prob-answer">Basés à Dakar depuis 2015, actifs sur des projets France depuis le premier jour. Les deux simultanément — pas l'un ou l'autre.</span></div>
+          <div class="why-prob-proof">Clients France : Stellantis, Alten, Hubsan · Partenaires Afrique : ONFP, MEFPT, RAFPRO 13 pays</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- NOTRE ADN — 6 AVANTAGES -->
+  <section class="why-dna">
+    <div class="why-dna-inner">
+      <div class="section-eyebrow">Notre ADN</div>
+      <h2 class="section-title">Ce que personne ne peut copier rapidement</h2>
+      <p class="section-sub">Ces avantages ne se construisent pas en 6 mois. Ils sont le résultat de 10 ans de choix délibérés.</p>
+      <div class="why-dna-grid">
+        <div class="why-dna-card">
+          <div class="why-dna-num">01</div>
+          <div class="why-dna-icon" style="background:linear-gradient(135deg,var(--navy),#1B2D6B)">
+            <svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          </div>
+          <div class="why-dna-title">La boucle fermée — unique en Afrique de l'Ouest</div>
+          <div class="why-dna-desc">Galima Academy forme → Galimatech emploie → projets clients France → cas d'usage documentés → nourrit les formations suivantes. Un écosystème auto-alimenté que personne d'autre n'a.</div>
+          <div class="why-dna-proof" style="color:var(--cyan)">10 ans de construction · 0 concurrent avec ce modèle au Sénégal</div>
+        </div>
+        <div class="why-dna-card">
+          <div class="why-dna-num">02</div>
+          <div class="why-dna-icon" style="background:linear-gradient(135deg,#065F46,#047857)">
+            <svg viewBox="0 0 24 24"><path d="M22 10v6M2 10l10-5 10 5-10 5-10-5z"/><path d="M6 12v5c0 2.21 2.686 4 6 4s6-1.79 6-4v-5"/></svg>
+          </div>
+          <div class="why-dna-title">Talents formés en interne — pas achetés sur des plateformes</div>
+          <div class="why-dna-desc">Nos développeurs ne viennent pas de Upwork ou de LinkedIn. Ils sont sélectionnés, formés selon nos standards Galima Academy, et employés directement. C'est pour ça qu'ils sont opérationnels en 72h.</div>
+          <div class="why-dna-proof" style="color:#34D399">87% insertion · turnover &lt;20% · standards enterprise France</div>
+        </div>
+        <div class="why-dna-card">
+          <div class="why-dna-num">03</div>
+          <div class="why-dna-icon" style="background:linear-gradient(135deg,#7C3AED,#5B21B6)">
+            <svg viewBox="0 0 24 24"><path d="M12 2a7 7 0 017 7c0 3.5-2 6-5 7.4V18a2 2 0 11-4 0v-1.6C7 15 5 12.5 5 9a7 7 0 017-7z"/><circle cx="12" cy="9" r="2"/></svg>
+          </div>
+          <div class="why-dna-title">IA Advisory intégrée — pas une offre séparée</div>
+          <div class="why-dna-desc">L'IA n'est pas un produit que nous ajoutons à notre catalogue. C'est une capacité transverse. Nos missions Advisory alimentent les formations. Nos formations alimentent les déploiements. Tout est connecté.</div>
+          <div class="why-dna-proof" style="color:#A78BFA">AI Transformation Program · 6 phases · Diagnostic au ROI mesuré</div>
+        </div>
+        <div class="why-dna-card">
+          <div class="why-dna-num">04</div>
+          <div class="why-dna-icon" style="background:linear-gradient(135deg,var(--gold),#A0692A)">
+            <svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M9 12l2 2 4-4"/></svg>
+          </div>
+          <div class="why-dna-title">10 garanties contractuelles — pas des promesses verbales</div>
+          <div class="why-dna-desc">Propriété du code dès le premier commit. Résiliation sous 30 jours. Intégration en 72h. SLA garantis. Reporting temps réel. Ce qui est verbal chez nos concurrents est ici noir sur blanc dans le contrat.</div>
+          <div class="why-dna-proof" style="color:var(--gold)">10 garanties écrites · 0 clause piège · Propriété code immédiate</div>
+        </div>
+        <div class="why-dna-card">
+          <div class="why-dna-num">05</div>
+          <div class="why-dna-icon" style="background:linear-gradient(135deg,#0369A1,#0284C7)">
+            <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 010 20M12 2a15.3 15.3 0 000 20"/></svg>
+          </div>
+          <div class="why-dna-title">Double ancrage France + Afrique — pas l'un ou l'autre</div>
+          <div class="why-dna-desc">Nos développeurs ont des références sur des projets Stellantis et Alten. Et ils connaissent les contraintes de connectivité, de mobile money et d'infrastructure africaines. Les deux — simultanément.</div>
+          <div class="why-dna-proof" style="color:#38BDF8">Clients France actifs depuis 2015 · GMT -1h · Français natifs</div>
+        </div>
+        <div class="why-dna-card">
+          <div class="why-dna-num">06</div>
+          <div class="why-dna-icon" style="background:linear-gradient(135deg,#DC2626,#B91C1C)">
+            <svg viewBox="0 0 24 24"><polyline points="22 7 13.5 15.5 8.5 10.5 2 17"/><polyline points="16 7 22 7 22 13"/></svg>
+          </div>
+          <div class="why-dna-title">Résultats mesurés — pas des promesses d'impact</div>
+          <div class="why-dna-desc">Chaque engagement produit des métriques. Pas de reporting vague. Pas de "succès subjectif". ROI documenté, taux d'insertion audités, SLA mesurés, économies calculées. Les chiffres parlent.</div>
+          <div class="why-dna-proof" style="color:#F87171">-70% temps reporting Stellantis · 180K€ économisés Alten · 99.8% SLA Hubsan</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- LA BOUCLE NARRATIVE -->
+  <section class="why-loop-section">
+    <div class="hero-grid" style="background-image:linear-gradient(rgba(255,255,255,.04) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.04) 1px,transparent 1px);background-size:48px 48px"></div>
+    <div class="why-loop-inner">
+      <div class="why-eyebrow">La boucle qui nous rend uniques</div>
+      <h2 class="why-title">Comprendre le <span style="color:var(--cyan)">modèle intégré</span></h2>
+      <p style="font-size:16px;color:rgba(255,255,255,.4);max-width:520px;margin-bottom:0;line-height:1.75">Chaque composant du groupe GALIMA nourrit les autres. C'est ça la vraie barrière à l'entrée.</p>
+      <div class="why-loop-narrative">
+        <div class="why-loop-step">
+          <div class="why-loop-icon" style="background:rgba(0,174,239,.15)"><svg viewBox="0 0 24 24" stroke="var(--cyan)"><path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"/><circle cx="12" cy="7" r="4"/></svg></div>
+          <div>
+            <div class="why-loop-label">Étape 1</div>
+            <div class="why-loop-step-title">Un client a un besoin</div>
+            <div class="why-loop-step-desc">Un DSI français veut réduire ses coûts IT. Une administration sénégalaise veut se digitaliser. Une organisation veut déployer l'IA. Chez Galimatech, ce besoin est traité par la capacité appropriée — Teams, Technology, Talent ou AI — pas par la prestation du moment.</div>
+          </div>
+        </div>
+        <div class="why-loop-step">
+          <div class="why-loop-icon" style="background:rgba(52,211,153,.15)"><svg viewBox="0 0 24 24" stroke="#34D399"><path d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"/></svg></div>
+          <div>
+            <div class="why-loop-label">Étape 2</div>
+            <div class="why-loop-step-title">Galimatech construit la solution</div>
+            <div class="why-loop-step-desc">L'équipe technique livre le projet avec des profils formés en interne. Les standards sont ceux des projets France — pas des standards locaux déclassés. La documentation est produite dès le début pour faciliter le transfert.</div>
+            <div class="why-loop-step-proof">Profils Academy → opérationnels en 72h · Propriété code immédiate</div>
+          </div>
+        </div>
+        <div class="why-loop-step">
+          <div class="why-loop-icon" style="background:rgba(201,145,58,.15)"><svg viewBox="0 0 24 24" stroke="var(--gold)"><path d="M22 10v6M2 10l10-5 10 5-10 5-10-5z"/></svg></div>
+          <div>
+            <div class="why-loop-label">Étape 3</div>
+            <div class="why-loop-step-title">Galima Academy forme les équipes du client</div>
+            <div class="why-loop-step-desc">En parallèle du projet, les collaborateurs du client montent en compétences. Ils ne deviennent pas dépendants de nous — ils acquièrent la capacité de maintenir et d'évoluer la solution de manière autonome. C'est ça "nous restons" — pas en termes de contrat, en termes de compétences transmises.</div>
+            <div class="why-loop-step-proof">87% insertion · 80% pratique terrain · Stage France pour les parcours longs</div>
+          </div>
+        </div>
+        <div class="why-loop-step">
+          <div class="why-loop-icon" style="background:rgba(139,92,246,.15)"><svg viewBox="0 0 24 24" stroke="#A78BFA"><path d="M12 2a7 7 0 017 7c0 3.5-2 6-5 7.4V18a2 2 0 11-4 0v-1.6C7 15 5 12.5 5 9a7 7 0 017-7z"/></svg></div>
+          <div>
+            <div class="why-loop-label">Étape 4</div>
+            <div class="why-loop-step-title">AI Advisory déploie les cas d'usage IA</div>
+            <div class="why-loop-step-desc">Chaque projet technologique devient une opportunité de déployer des cas d'usage IA. Le diagnostic IA est intégré à l'engagement principal. Pas une offre séparée — une couche intelligente qui vient amplifier ce qui a été construit.</div>
+            <div class="why-loop-step-proof">AI Transformation Program · 6 phases · ROI documenté</div>
+          </div>
+        </div>
+        <div class="why-loop-step">
+          <div class="why-loop-icon" style="background:rgba(0,174,239,.15)"><svg viewBox="0 0 24 24" stroke="var(--cyan)"><polyline points="22 7 13.5 15.5 8.5 10.5 2 17"/><polyline points="16 7 22 7 22 13"/></svg></div>
+          <div>
+            <div class="why-loop-label">Étape 5 — La différence</div>
+            <div class="why-loop-step-title">Chaque mission produit un actif réutilisable</div>
+            <div class="why-loop-step-desc">La mission chez le client du jour devient un cas d'usage dans les formations de demain. La méthode développée pour un secteur devient un template pour le suivant. C'est ça le Knowledge System : chaque engagement enrichit l'institution. C'est la boucle que personne ne peut répliquer sans 10 ans de patience.</div>
+            <div class="why-loop-step-proof">100+ cas d'usage documentés · Bibliothèque PI propriétaire · Observatoire africain des compétences</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TABLEAU COMPARATIF COMPLET -->
+  <section class="why-comp">
+    <div class="why-comp-inner">
+      <div class="section-eyebrow">Comparatif objectif</div>
+      <h2 class="section-title">Galimatech face aux alternatives</h2>
+      <p class="section-sub">Ce tableau ne cherche pas à dénigrer nos concurrents — il montre pourquoi le modèle intégré est objectivement supérieur pour votre besoin.</p>
+      <div class="why-comp-table">
+        <table>
+          <thead>
+            <tr>
+              <th>Capacité recherchée</th>
+              <th>ESN Paris</th>
+              <th>Offshore Inde</th>
+              <th>Centre formation local</th>
+              <th>Cabinet IA</th>
+              <th class="gali-col">Galimatech ✦</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="cat-row"><td colspan="5">TEAMS — Recrutement & Nearshore</td><td class="gali-col"></td></tr>
+            <tr><td>Développeurs francophones natifs</td><td class="chk">✓</td><td class="xmk">✗ Anglophone</td><td class="xmk">✗</td><td class="xmk">✗</td><td class="gali-col"><span class="chk">✓</span> GMT -1h, natifs</td></tr>
+            <tr><td>Profils formés en interne</td><td class="xmk">✗</td><td class="xmk">✗</td><td class="xmk">✗</td><td class="xmk">✗</td><td class="gali-col"><span class="chk">✓</span> Galima Academy</td></tr>
+            <tr><td>Intégration garantie en 72h</td><td class="wmk">Variable</td><td class="xmk">✗ Souvent 2-3 sem.</td><td class="xmk">✗</td><td class="xmk">✗</td><td class="gali-col"><span class="chk">✓</span> Contractuel</td></tr>
+            <tr><td>Économies garanties -50%</td><td class="xmk">✗</td><td class="chk">✓ -60% mais risque qualité</td><td class="xmk">✗</td><td class="xmk">✗</td><td class="gali-col"><span class="chk">✓</span> -50% garanti contrat</td></tr>
+            <tr class="cat-row"><td colspan="5">TECHNOLOGY — Développement & IA</td><td class="gali-col"></td></tr>
+            <tr><td>Dev logiciel standards enterprise</td><td class="chk">✓</td><td class="wmk">Variable</td><td class="xmk">✗</td><td class="xmk">✗</td><td class="gali-col"><span class="chk">✓</span> Standards projets France</td></tr>
+            <tr><td>Connaissance réalités africaines</td><td class="xmk">✗</td><td class="xmk">✗</td><td class="chk">✓</td><td class="wmk">Partielle</td><td class="gali-col"><span class="chk">✓</span> 10 ans terrain Dakar</td></tr>
+            <tr><td>Déploiement IA en production</td><td class="wmk">Rare</td><td class="wmk">Partiel</td><td class="xmk">✗</td><td class="wmk">Conseil seulement</td><td class="gali-col"><span class="chk">✓</span> Du diagnostic au ROI</td></tr>
+            <tr class="cat-row"><td colspan="5">TALENT — Formation & Insertion</td><td class="gali-col"></td></tr>
+            <tr><td>Formation certifiée ONFP/3FPT</td><td class="xmk">✗</td><td class="xmk">✗</td><td class="wmk">Parfois</td><td class="xmk">✗</td><td class="gali-col"><span class="chk">✓</span> 25 formations agréées</td></tr>
+            <tr><td>Stage sur projets clients réels France</td><td class="xmk">✗</td><td class="xmk">✗</td><td class="xmk">✗</td><td class="xmk">✗</td><td class="gali-col"><span class="chk">✓</span> Unique en Afrique de l'Ouest</td></tr>
+            <tr><td>Taux d'insertion mesuré et audité</td><td class="xmk">Non applicable</td><td class="xmk">Non applicable</td><td class="wmk">Rarement</td><td class="xmk">Non applicable</td><td class="gali-col"><span class="chk">✓</span> 87% à 6 mois</td></tr>
+            <tr class="cat-row"><td colspan="5">GARANTIES & ENGAGEMENT</td><td class="gali-col"></td></tr>
+            <tr><td>Garanties contractuelles écrites</td><td class="wmk">Limitées</td><td class="xmk">Rares</td><td class="wmk">Variables</td><td class="wmk">Variables</td><td class="gali-col"><span class="chk">✓</span> 10 garanties écrites</td></tr>
+            <tr><td>Propriété du code immédiate</td><td class="wmk">Souvent</td><td class="xmk">Clauses variables</td><td class="xmk">Non applicable</td><td class="xmk">Non applicable</td><td class="gali-col"><span class="chk">✓</span> Dès le 1er commit</td></tr>
+            <tr><td>Résiliation libre sous 30 jours</td><td class="wmk">3 mois souvent</td><td class="xmk">Souvent 6 mois</td><td class="xmk">Non applicable</td><td class="xmk">Non applicable</td><td class="gali-col"><span class="chk">✓</span> 30 jours contractuel</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- NOS 10 ENGAGEMENTS -->
+  <section class="why-commits">
+    <div class="why-commits-inner">
+      <div class="section-eyebrow">Nos engagements</div>
+      <h2 class="section-title">10 engagements — tous contractualisés</h2>
+      <p class="section-sub">Pas des valeurs d'entreprise sur un mur. Des engagements écrits dans chaque contrat, vérifiables à tout moment.</p>
+      <div class="why-commits-grid">
+        <div class="why-commit-item"><div class="why-commit-num">01</div><div><h4>Propriété du code dès le 1er commit</h4><p>Le code que nous écrivons vous appartient immédiatement. Aucune clause de rétention, aucune dépendance forcée.</p></div></div>
+        <div class="why-commit-item"><div class="why-commit-num">02</div><div><h4>Intégration en 72h garantie</h4><p>Votre équipe Galimatech est opérationnelle en 72 heures. Pas 2 semaines de "onboarding" — 72 heures, contractuelles.</p></div></div>
+        <div class="why-commit-item"><div class="why-commit-num">03</div><div><h4>Résiliation libre sous 30 jours</h4><p>Préavis de 30 jours. Vous conservez l'intégralité du code livré. Aucun contrat d'engagement longue durée imposé.</p></div></div>
+        <div class="why-commit-item"><div class="why-commit-num">04</div><div><h4>Reporting temps réel — accès Git</h4><p>Visibilité complète à tout moment sur l'avancement. Git, Jira, dashboards — vous voyez ce qui est fait, pas ce qu'on vous dit qui est fait.</p></div></div>
+        <div class="why-commit-item"><div class="why-commit-num">05</div><div><h4>SLA définis et mesurés</h4><p>Les niveaux de service sont écrits dans le contrat. Les métriques sont mesurées automatiquement et partagées chaque semaine.</p></div></div>
+        <div class="why-commit-item"><div class="why-commit-num">06</div><div><h4>Turnover maîtrisé (&lt;20%)</h4><p>Nos profils sont employés directement. Ils ont une carrière chez Galimatech, pas un contrat à la mission. Stabilité garantie.</p></div></div>
+        <div class="why-commit-item"><div class="why-commit-num">07</div><div><h4>Documentation complète livrée</h4><p>Chaque livraison s'accompagne de la documentation technique et fonctionnelle. Vous pouvez maintenir la solution seuls demain.</p></div></div>
+        <div class="why-commit-item"><div class="why-commit-num">08</div><div><h4>Formation de vos équipes incluse</h4><p>Le transfert de compétences est intégré à chaque engagement. Votre équipe monte en compétences en même temps que le projet avance.</p></div></div>
+        <div class="why-commit-item"><div class="why-commit-num">09</div><div><h4>Confidentialité et sécurité</h4><p>NDA systématique, accès segmentés, pas de données client dans les formations. Votre IP reste votre IP.</p></div></div>
+        <div class="why-commit-item"><div class="why-commit-num">10</div><div><h4>Point de contact unique</h4><p>Un interlocuteur principal pour chaque client. Pas de hot-line anonyme. Une personne que vous connaissez, joignable directement.</p></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CHIFFRES CONSOLIDÉS -->
+  <section class="why-numbers">
+    <div class="hero-grid"></div>
+    <div class="hero-glow"></div>
+    <div class="why-numbers-inner">
+      <div class="why-eyebrow">En chiffres</div>
+      <h2 class="why-title" style="max-width:500px">10 ans de <span style="color:var(--cyan)">résultats mesurés</span></h2>
+      <div class="why-numbers-grid">
+        <div class="why-number-item"><div class="why-number-n">10+</div><div class="why-number-l">Années de projets nearshore France actifs</div></div>
+        <div class="why-number-item"><div class="why-number-n">100+</div><div class="why-number-l">Projets livrés France + Afrique</div></div>
+        <div class="why-number-item"><div class="why-number-n">25</div><div class="why-number-l">Formations certifiées ONFP/3FPT</div></div>
+        <div class="why-number-item"><div class="why-number-n">87%</div><div class="why-number-l">Taux d'insertion apprenants à 6 mois</div></div>
+        <div class="why-number-item"><div class="why-number-n">-50%</div><div class="why-number-l">Réduction coûts IT garantie contrat</div></div>
+        <div class="why-number-item"><div class="why-number-n">180K€</div><div class="why-number-l">Économies annuelles client Alten</div></div>
+        <div class="why-number-item"><div class="why-number-n">99.8%</div><div class="why-number-l">SLA respectés — client Hubsan sur 3 ans</div></div>
+        <div class="why-number-item"><div class="why-number-n">4</div><div class="why-number-l">Business Units intégrés sous un même toit</div></div>
+        <div class="why-number-item"><div class="why-number-n">13</div><div class="why-number-l">Pays réseau RAFPRO — expansion CEDEAO</div></div>
+        <div class="why-number-item"><div class="why-number-n">GMT-1</div><div class="why-number-l">Le fuseau le plus favorable pour les clients France</div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA FINAL -->
+  <section class="why-cta-final">
+    <div class="hero-grid"></div>
+    <div class="hero-glow"></div>
+    <div class="why-cta-final-inner">
+      <div class="ai-badge" style="margin:0 auto 24px"><div class="ai-badge-dot" style="background:var(--cyan)"></div><span class="ai-badge-text" style="color:var(--cyan)">Passons à l'action</span></div>
+      <h2 style="font-family:var(--font-d);font-size:clamp(28px,4vw,48px);font-weight:800;color:white;margin-bottom:16px;line-height:1.15">Quel est votre besoin cette semaine ?</h2>
+      <p style="font-size:16px;color:rgba(255,255,255,.45);margin-bottom:44px;line-height:1.75">Teams, Technology, Talent ou AI — un échange de 30 minutes suffit pour identifier la bonne capacité à mobiliser.</p>
+      <div style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-bottom:52px">
+        <a href="mailto:contact@galimatech.com" class="btn-hero">Planifier un échange <svg class="ic" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+        <a href="#" onclick="showPage('page-home')" class="btn-hero-ghost">Retour à l'accueil</a>
+      </div>
+      <div style="display:flex;gap:40px;justify-content:center;flex-wrap:wrap">
+        <a href="#" onclick="showPage('page-nearshore')" style="text-align:center;text-decoration:none">
+          <div style="font-family:var(--font-m);font-size:13px;color:var(--cyan);margin-bottom:4px">Teams</div>
+          <div style="font-size:12px;color:rgba(255,255,255,.3)">Nearshore France</div>
+        </a>
+        <a href="#" onclick="showPage('page-africa')" style="text-align:center;text-decoration:none">
+          <div style="font-family:var(--font-m);font-size:13px;color:#34D399;margin-bottom:4px">Technology</div>
+          <div style="font-size:12px;color:rgba(255,255,255,.3)">ESN Afrique</div>
+        </a>
+        <a href="#" onclick="showPage('page-academy')" style="text-align:center;text-decoration:none">
+          <div style="font-family:var(--font-m);font-size:13px;color:var(--gold);margin-bottom:4px">Talent</div>
+          <div style="font-size:12px;color:rgba(255,255,255,.3)">Galima Academy</div>
+        </a>
+        <a href="ai-advisory.html" style="text-align:center;text-decoration:none">
+          <div style="font-family:var(--font-m);font-size:13px;color:#A78BFA;margin-bottom:4px">AI</div>
+          <div style="font-size:12px;color:rgba(255,255,255,.3)">Advisory</div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+</div><!-- /page-why -->
+
+
+<!-- ════════════════════════════════════════════
+     PAGE NEARSHORE
+════════════════════════════════════════════ -->
+<div id="page-nearshore" class="page">
+  <div class="page-hero" style="background:linear-gradient(135deg,var(--navy-deep) 0%,#0D1F4A 100%)">
+    <button class="back-btn" onclick="showPage('page-home')"><svg viewBox="0 0 24 24"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>Retour</button>
+    <div class="page-eyebrow" style="color:var(--cyan)">Teams · Nearshore France</div>
+    <h1>Votre équipe tech à Paris. <span style="color:var(--cyan)">Basée à Dakar.</span></h1>
+    <p style="color:rgba(255,255,255,.6)">-50% coûts IT sans compromis qualité. Développeurs seniors, français natifs, opérationnels en 72h. 10 garanties contractuelles.</p>
+    <div class="page-stats">
+      <div class="page-stat"><div class="n" style="color:var(--cyan)">-50%</div><div class="l">Coûts vs équipe locale</div></div>
+      <div class="page-stat"><div class="n" style="color:var(--cyan)">72h</div><div class="l">Intégration garantie</div></div>
+      <div class="page-stat"><div class="n" style="color:var(--cyan)">30+</div><div class="l">Développeurs seniors</div></div>
+      <div class="page-stat"><div class="n" style="color:var(--cyan)">GMT-1</div><div class="l">Décalage horaire</div></div>
+    </div>
+  </div>
+  <div class="content-section">
+    <h2>Calculez votre économie</h2>
+    <div class="calc-box">
+      <h3>Estimation d'économie annuelle</h3>
+      <div class="calc-row">
+        <div class="calc-field"><label>Nombre de développeurs</label><input type="range" id="devCount" min="1" max="20" value="5" oninput="updateCalc()"><div class="val" id="devCountVal">5 développeurs</div></div>
+        <div class="calc-field"><label>TJM actuel moyen</label><input type="range" id="tjm" min="400" max="1200" step="50" value="700" oninput="updateCalc()"><div class="val" id="tjmVal">700 €/jour</div></div>
+      </div>
+      <div class="calc-result"><div class="economy" id="economy">366 000 €</div><div class="sub">Économie annuelle estimée — 220 jours ouvrés</div></div>
+    </div>
+    <h2 style="margin-top:60px">Pourquoi le Sénégal ?</h2>
+    <p>Le nearshore sénégalais combine tous les avantages sans les inconvénients de l'offshore traditionnel.</p>
+    <div class="comparison-table">
+      <table>
+        <thead><tr><th>Critère</th><th>Offshore Inde</th><th>Nearshore Maghreb</th><th>Europe de l'Est</th><th style="background:#0D2160">Galimatech ✦</th></tr></thead>
+        <tbody>
+          <tr><td>Économies</td><td>-60%</td><td>-40%</td><td>-30%</td><td class="highlight check">Jusqu'à -50%</td></tr>
+          <tr><td>Langue</td><td class="cross">Anglais</td><td class="warn">Accent marqué</td><td class="warn">Accent</td><td class="highlight check">Français natif</td></tr>
+          <tr><td>Décalage horaire</td><td class="cross">+6h</td><td class="check">-1h</td><td class="warn">+2h</td><td class="highlight check">-1 à -2h</td></tr>
+          <tr><td>Garanties contractuelles</td><td class="cross">Aucune</td><td class="cross">Rares</td><td class="warn">Limitées</td><td class="highlight check">10 garanties</td></tr>
+          <tr><td>Talents formés en interne</td><td class="cross">Non</td><td class="cross">Non</td><td class="cross">Non</td><td class="highlight check">Galima Academy</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <h2 style="margin-top:60px">10 garanties contractuelles</h2>
+    <p>Tout ce qui est verbal chez nos concurrents est ici contractualisé.</p>
+    <div class="guarantees-grid">
+      <div class="guarantee-item"><div class="guarantee-icon"><svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div><div><h4>Propriété du code dès le 1er commit</h4><p>Aucune clause de rétention. Le code vous appartient dès qu'il est écrit.</p></div></div>
+      <div class="guarantee-item"><div class="guarantee-icon"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/></svg></div><div><h4>Intégration en 72h</h4><p>Équipe opérationnelle en 72 heures — garanti par contrat.</p></div></div>
+      <div class="guarantee-item"><div class="guarantee-icon"><svg viewBox="0 0 24 24"><path d="M9 12l2 2 4-4"/><path d="M21 12c0 4.97-4.03 9-9 9s-9-4.03-9-9 4.03-9 9-9c2.12 0 4.07.74 5.61 1.96"/></svg></div><div><h4>Résiliation sous 30 jours</h4><p>Préavis de 30 jours. Vous conservez l'intégralité du code livré.</p></div></div>
+      <div class="guarantee-item"><div class="guarantee-icon"><svg viewBox="0 0 24 24"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg></div><div><h4>Reporting temps réel</h4><p>Git, Jira, dashboards — visibilité complète à tout moment.</p></div></div>
+    </div>
+    <div style="margin-top:40px;text-align:center"><a href="mailto:contact@galimatech.com" class="btn-primary" style="display:inline-flex">Planifier un échange de 30 min <svg class="ic" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a></div>
+  </div>
+</div>
+
+<!-- ════════════════════════════════════════════
+     PAGE ESN AFRIQUE
+════════════════════════════════════════════ -->
+<!-- ════════════════════════════════════════════
+     PAGE ESN AFRIQUE — VERSION COMPLÈTE
+════════════════════════════════════════════ -->
+<style>
+/* ── ESN AFRIQUE ── */
+.esn-hero{min-height:100vh;background:linear-gradient(160deg,#011a10 0%,#022C22 40%,#065F46 100%);display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:120px 24px 80px;position:relative;overflow:hidden}
+.esn-glow{position:absolute;width:700px;height:700px;background:radial-gradient(circle,rgba(52,211,153,.08) 0%,transparent 70%);top:50%;left:50%;transform:translate(-50%,-50%);pointer-events:none}
+.esn-badge{display:inline-flex;align-items:center;gap:8px;background:rgba(52,211,153,.12);border:1px solid rgba(52,211,153,.25);border-radius:30px;padding:6px 16px;margin-bottom:28px}
+.esn-badge-dot{width:7px;height:7px;border-radius:50%;background:#34D399;animation:pulse-esn 2s ease-in-out infinite}
+@keyframes pulse-esn{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.5;transform:scale(.85)}}
+.esn-badge-text{font-family:var(--font-m);font-size:11px;letter-spacing:2px;color:#34D399;text-transform:uppercase}
+.esn-hero-title{font-family:var(--font-d);font-size:clamp(36px,6vw,78px);font-weight:800;line-height:1.05;color:white;margin-bottom:20px;letter-spacing:-1px}
+.esn-hero-title .vert{color:#34D399}
+.esn-hero-sub{font-size:17px;color:rgba(255,255,255,.5);max-width:580px;margin:0 auto 52px;line-height:1.8}
+.esn-stats{display:flex;gap:52px;justify-content:center;flex-wrap:wrap;margin-bottom:52px}
+.esn-stat .n{font-family:var(--font-m);font-size:32px;font-weight:500;color:#34D399;line-height:1}
+.esn-stat .l{font-size:11px;color:rgba(255,255,255,.35);margin-top:6px;letter-spacing:.5px}
+.btn-esn{background:linear-gradient(135deg,#065F46,#047857);color:white;font-family:var(--font-d);font-weight:700;font-size:15px;padding:15px 32px;border-radius:10px;border:none;cursor:pointer;display:inline-flex;align-items:center;gap:8px;transition:all .22s;text-decoration:none;box-shadow:0 4px 20px rgba(6,95,70,.4)}
+.btn-esn:hover{transform:translateY(-2px);box-shadow:0 8px 28px rgba(6,95,70,.55)}
+.btn-esn-ghost{background:transparent;color:rgba(255,255,255,.7);font-family:var(--font-d);font-weight:600;font-size:15px;padding:15px 32px;border-radius:10px;border:1px solid rgba(255,255,255,.15);cursor:pointer;display:inline-flex;align-items:center;gap:8px;transition:all .22s;text-decoration:none}
+.btn-esn-ghost:hover{border-color:rgba(255,255,255,.4);color:white;transform:translateY(-1px)}
+/* Différenciateur strip */
+.esn-diff-strip{background:#011a10;padding:32px 24px;display:flex;align-items:center;justify-content:center;gap:0;overflow-x:auto}
+.esn-diff-item{display:flex;align-items:center;gap:10px;padding:0 28px;border-right:1px solid rgba(52,211,153,.12);flex-shrink:0}
+.esn-diff-item:last-child{border-right:none}
+.esn-diff-icon{width:36px;height:36px;background:rgba(52,211,153,.1);border-radius:8px;display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.esn-diff-icon svg{width:18px;height:18px;stroke:#34D399;stroke-width:1.75;fill:none;stroke-linecap:round}
+.esn-diff-text{font-size:13px;color:rgba(255,255,255,.7);font-weight:500;white-space:nowrap}
+.esn-diff-text strong{color:#34D399}
+/* Services */
+.esn-services{padding:80px 24px;background:var(--white)}
+.esn-services-inner{max-width:1100px;margin:0 auto}
+.esn-service-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-top:52px}
+.esn-service-card{background:var(--gray-bg);border-radius:16px;padding:36px;border:1px solid var(--gray-mid);transition:all .3s;position:relative;overflow:hidden}
+.esn-service-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,#065F46,#34D399);transform:scaleX(0);transform-origin:left;transition:transform .3s}
+.esn-service-card:hover{box-shadow:var(--shadow-lg);transform:translateY(-3px);border-color:rgba(6,95,70,.2)}
+.esn-service-card:hover::before{transform:scaleX(1)}
+.esn-service-icon{width:52px;height:52px;background:linear-gradient(135deg,#ECFDF5,#A7F3D0);border-radius:14px;display:flex;align-items:center;justify-content:center;margin-bottom:22px}
+.esn-service-icon svg{width:26px;height:26px;stroke:#065F46;stroke-width:1.75;fill:none;stroke-linecap:round;stroke-linejoin:round}
+.esn-service-title{font-family:var(--font-d);font-size:18px;font-weight:700;color:var(--navy);margin-bottom:10px}
+.esn-service-desc{font-size:14px;color:var(--gray-text);line-height:1.75;margin-bottom:20px}
+.esn-service-stack{display:flex;flex-wrap:wrap;gap:6px}
+.esn-stack-chip{font-family:var(--font-m);font-size:11px;padding:3px 10px;border-radius:6px;background:rgba(6,95,70,.08);color:#065F46;border:1px solid rgba(6,95,70,.15);font-weight:500}
+/* Secteurs */
+.esn-sectors{padding:80px 24px;background:var(--navy-deep);position:relative;overflow:hidden}
+.esn-sectors-inner{max-width:1100px;margin:0 auto;position:relative;z-index:1}
+.esn-sector-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:2px;margin-top:52px}
+.esn-sector{background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.06);padding:32px 24px;transition:all .3s;cursor:default}
+.esn-sector:hover{background:rgba(52,211,153,.05);border-color:rgba(52,211,153,.15)}
+.esn-sector-emoji{font-size:28px;margin-bottom:16px}
+.esn-sector-name{font-family:var(--font-d);font-size:16px;font-weight:700;color:white;margin-bottom:10px}
+.esn-sector-ex{font-size:13px;color:rgba(255,255,255,.4);line-height:1.65}
+.esn-sector-tag{font-family:var(--font-m);font-size:10px;color:#34D399;margin-top:14px;letter-spacing:1px;text-transform:uppercase}
+/* Process engagement */
+.esn-process{padding:80px 24px;background:var(--gray-bg)}
+.esn-process-inner{max-width:1100px;margin:0 auto}
+.esn-process-steps{display:grid;grid-template-columns:repeat(4,1fr);gap:0;margin-top:52px;position:relative}
+.esn-process-steps::before{content:'';position:absolute;top:32px;left:12.5%;right:12.5%;height:2px;background:linear-gradient(90deg,#065F46,#34D399);opacity:.25;z-index:0}
+.esn-step{text-align:center;padding:0 20px;position:relative;z-index:1}
+.esn-step-num{width:64px;height:64px;border-radius:16px;background:linear-gradient(135deg,#065F46,#047857);display:flex;align-items:center;justify-content:center;margin:0 auto 20px;box-shadow:0 4px 16px rgba(6,95,70,.3)}
+.esn-step-num svg{width:28px;height:28px;stroke:white;stroke-width:1.75;fill:none;stroke-linecap:round;stroke-linejoin:round}
+.esn-step-label{font-family:var(--font-m);font-size:10px;letter-spacing:1.5px;text-transform:uppercase;color:#065F46;margin-bottom:8px}
+.esn-step-title{font-family:var(--font-d);font-size:16px;font-weight:700;color:var(--navy);margin-bottom:8px}
+.esn-step-desc{font-size:13px;color:var(--gray-text);line-height:1.65}
+/* Refs */
+.esn-refs{padding:80px 24px;background:var(--white)}
+.esn-refs-inner{max-width:1100px;margin:0 auto}
+.esn-ref-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:24px;margin-top:52px}
+.esn-ref-card{background:var(--gray-bg);border-radius:16px;padding:36px;border:1px solid var(--gray-mid);display:flex;gap:24px;align-items:flex-start;transition:all .3s}
+.esn-ref-card:hover{box-shadow:var(--shadow);transform:translateY(-2px)}
+.esn-ref-logo{width:56px;height:56px;background:var(--navy);border-radius:12px;display:flex;align-items:center;justify-content:center;flex-shrink:0;font-family:var(--font-d);font-weight:800;font-size:11px;color:var(--cyan);letter-spacing:.5px;text-align:center;line-height:1.2}
+.esn-ref-content{}
+.esn-ref-client{font-family:var(--font-d);font-size:16px;font-weight:800;color:var(--navy);margin-bottom:4px}
+.esn-ref-period{font-size:11px;color:var(--gray-text);font-family:var(--font-m);margin-bottom:14px}
+.esn-ref-quote{font-size:14px;color:#374151;line-height:1.7;font-style:italic;margin-bottom:16px;border-left:3px solid #34D399;padding-left:14px}
+.esn-ref-tags{display:flex;flex-wrap:wrap;gap:6px}
+.esn-ref-tag{font-size:11px;padding:3px 10px;border-radius:6px;background:rgba(6,95,70,.08);color:#065F46;border:1px solid rgba(6,95,70,.12);font-weight:500}
+/* Offres */
+.esn-offres{padding:80px 24px;background:var(--navy)}
+.esn-offres-inner{max-width:1100px;margin:0 auto}
+.esn-offres-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-top:52px}
+.esn-offre-card{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08);border-radius:20px;padding:36px;transition:all .3s}
+.esn-offre-card:hover{background:rgba(255,255,255,.07);border-color:rgba(52,211,153,.2);transform:translateY(-2px)}
+.esn-offre-label{font-family:var(--font-m);font-size:10px;letter-spacing:2px;text-transform:uppercase;color:#34D399;margin-bottom:12px}
+.esn-offre-title{font-family:var(--font-d);font-size:20px;font-weight:700;color:white;margin-bottom:10px}
+.esn-offre-desc{font-size:14px;color:rgba(255,255,255,.45);line-height:1.75;margin-bottom:24px}
+.esn-offre-items{display:flex;flex-direction:column;gap:10px}
+.esn-offre-item{display:flex;gap:10px;align-items:flex-start}
+.esn-offre-check{width:18px;height:18px;border-radius:50%;background:rgba(52,211,153,.15);display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:1px}
+.esn-offre-check svg{width:10px;height:10px;stroke:#34D399;stroke-width:2.5;fill:none;stroke-linecap:round}
+.esn-offre-item span{font-size:13px;color:rgba(255,255,255,.55)}
+/* CTA final ESN */
+.esn-cta-final{padding:100px 24px;background:linear-gradient(135deg,#022C22 0%,#011a10 100%);text-align:center;position:relative;overflow:hidden}
+.esn-cta-inner{max-width:640px;margin:0 auto;position:relative;z-index:1}
+
+@media(max-width:900px){
+  .esn-service-grid{grid-template-columns:1fr}.esn-sector-grid{grid-template-columns:1fr 1fr}
+  .esn-process-steps{grid-template-columns:1fr 1fr;gap:32px}.esn-process-steps::before{display:none}
+  .esn-ref-grid{grid-template-columns:1fr}.esn-offres-grid{grid-template-columns:1fr}
+  .esn-diff-strip{gap:0;flex-wrap:wrap;justify-content:flex-start}
+}
+@media(max-width:600px){.esn-sector-grid{grid-template-columns:1fr}.esn-process-steps{grid-template-columns:1fr}}
+</style>
+
+<div id="page-africa" class="page">
+
+  <!-- HERO -->
+  <section class="esn-hero">
+    <div class="hero-grid"></div>
+    <div class="esn-glow"></div>
+    <button class="back-btn" onclick="showPage('page-home')" style="position:absolute;top:28px;left:28px">
+      <svg viewBox="0 0 24 24"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>Retour
+    </button>
+    <div class="esn-badge"><div class="esn-badge-dot"></div><span class="esn-badge-text">Technology · ESN Afrique · Galimatech</span></div>
+    <h1 class="esn-hero-title">Nous construisons.<br>Nous formons.<br><span class="vert">Nous restons.</span></h1>
+    <p class="esn-hero-sub">Votre DSI a besoin d'un partenaire, pas d'un fournisseur. Galimatech déploie les solutions, forme vos équipes, et vous accompagne sur la durée — avec des profils formés en interne par Galima Academy.</p>
+    <div class="esn-stats">
+      <div class="esn-stat"><div class="n">100%</div><div class="l">Profils formés en interne</div></div>
+      <div class="esn-stat"><div class="n">10+</div><div class="l">Années terrain</div></div>
+      <div class="esn-stat"><div class="n">6</div><div class="l">Secteurs couverts</div></div>
+      <div class="esn-stat"><div class="n">ONFP</div><div class="l">Agréé & certifié</div></div>
+    </div>
+    <div style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap">
+      <a href="mailto:contact@galimatech.com" class="btn-esn">Parler de votre projet <svg class="ic" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+      <a href="#esn-services" onclick="document.getElementById('esn-services').scrollIntoView({behavior:'smooth'})" class="btn-esn-ghost">Voir nos services</a>
+    </div>
+  </section>
+
+  <!-- DIFFÉRENCIATEUR STRIP -->
+  <div class="esn-diff-strip">
+    <div class="esn-diff-item">
+      <div class="esn-diff-icon"><svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
+      <div class="esn-diff-text">Profils <strong>formés en interne</strong> — pas recrutés sur des plateformes</div>
+    </div>
+    <div class="esn-diff-item">
+      <div class="esn-diff-icon"><svg viewBox="0 0 24 24"><path d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3"/></svg></div>
+      <div class="esn-diff-text">Nous livrons <strong>ET nous restons</strong> — pas de livraison et disparition</div>
+    </div>
+    <div class="esn-diff-item">
+      <div class="esn-diff-icon"><svg viewBox="0 0 24 24"><path d="M22 10v6M2 10l10-5 10 5-10 5-10-5z"/></svg></div>
+      <div class="esn-diff-text">Formation de <strong>vos équipes incluse</strong> via Galima Academy</div>
+    </div>
+    <div class="esn-diff-item">
+      <div class="esn-diff-icon"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 010 20M12 2a15.3 15.3 0 000 20"/></svg></div>
+      <div class="esn-diff-text">Référence <strong>projets France</strong> (Stellantis, Alten) + terrain Afrique</div>
+    </div>
+  </div>
+
+  <!-- SERVICES -->
+  <section class="esn-services" id="esn-services">
+    <div class="esn-services-inner">
+      <div class="section-eyebrow" style="color:#065F46">Nos expertises</div>
+      <h2 class="section-title">Ce que nous construisons pour vous</h2>
+      <p class="section-sub">Chaque engagement commence par comprendre votre contexte — pas par vendre une prestation standard.</p>
+      <div class="esn-service-grid">
+
+        <div class="esn-service-card">
+          <div class="esn-service-icon"><svg viewBox="0 0 24 24"><path d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"/></svg></div>
+          <div class="esn-service-title">Développement logiciel sur mesure</div>
+          <div class="esn-service-desc">Applications web, mobile, API et microservices. Nous utilisons les stacks qui tournent en production dans les meilleurs projets France — pas des technologies expérimentales.</div>
+          <div class="esn-service-stack">
+            <span class="esn-stack-chip">Angular</span><span class="esn-stack-chip">React</span><span class="esn-stack-chip">Laravel</span>
+            <span class="esn-stack-chip">Java Spring</span><span class="esn-stack-chip">Node.js</span><span class="esn-stack-chip">Flutter</span>
+          </div>
+        </div>
+
+        <div class="esn-service-card">
+          <div class="esn-service-icon"><svg viewBox="0 0 24 24"><path d="M9 3H5a2 2 0 00-2 2v4m6-6h10a2 2 0 012 2v4M9 3v18m0 0h10a2 2 0 002-2V9M9 21H5a2 2 0 01-2-2V9m0 0h18"/></svg></div>
+          <div class="esn-service-title">Data Engineering & BI</div>
+          <div class="esn-service-desc">Conception et déploiement de pipelines de données, entrepôts de données et tableaux de bord décisionnels. Vos données brutes deviennent une aide à la décision opérationnelle.</div>
+          <div class="esn-service-stack">
+            <span class="esn-stack-chip">PostgreSQL</span><span class="esn-stack-chip">Power BI</span><span class="esn-stack-chip">Airflow</span>
+            <span class="esn-stack-chip">dbt</span><span class="esn-stack-chip">Supabase</span><span class="esn-stack-chip">Metabase</span>
+          </div>
+        </div>
+
+        <div class="esn-service-card">
+          <div class="esn-service-icon"><svg viewBox="0 0 24 24"><path d="M12 2a7 7 0 017 7c0 3.5-2 6-5 7.4V18a2 2 0 11-4 0v-1.6C7 15 5 12.5 5 9a7 7 0 017-7z"/><circle cx="12" cy="9" r="2"/></svg></div>
+          <div class="esn-service-title">Intelligence Artificielle & ML</div>
+          <div class="esn-service-desc">Du chatbot interne au modèle de prédiction en production. Nous construisons des solutions IA qui fonctionnent dans votre contexte réel — pas des démos. Cas d'usage : finance, logistique, santé, agriculture.</div>
+          <div class="esn-service-stack">
+            <span class="esn-stack-chip">LangChain</span><span class="esn-stack-chip">Claude API</span><span class="esn-stack-chip">OpenAI</span>
+            <span class="esn-stack-chip">Python ML</span><span class="esn-stack-chip">n8n</span><span class="esn-stack-chip">Hugging Face</span>
+          </div>
+        </div>
+
+        <div class="esn-service-card">
+          <div class="esn-service-icon"><svg viewBox="0 0 24 24"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></div>
+          <div class="esn-service-title">Cloud & Infrastructure DevOps</div>
+          <div class="esn-service-desc">Mise en place d'environnements cloud scalables, containerisation, CI/CD et monitoring. Vos applications tournent de façon fiable, maintenable et sécurisée.</div>
+          <div class="esn-service-stack">
+            <span class="esn-stack-chip">Docker</span><span class="esn-stack-chip">AWS</span><span class="esn-stack-chip">GitHub Actions</span>
+            <span class="esn-stack-chip">Kubernetes</span><span class="esn-stack-chip">Terraform</span><span class="esn-stack-chip">Cloudflare</span>
+          </div>
+        </div>
+
+        <div class="esn-service-card">
+          <div class="esn-service-icon"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg></div>
+          <div class="esn-service-title">Intégration ERP & Systèmes</div>
+          <div class="esn-service-desc">Implémentation et intégration de systèmes ERP adaptés aux réalités africaines — gestion commerciale, stock, RH, comptabilité. Nous connectons vos outils pour éviter les doubles saisies.</div>
+          <div class="esn-service-stack">
+            <span class="esn-stack-chip">Odoo</span><span class="esn-stack-chip">REST APIs</span><span class="esn-stack-chip">Webhooks</span>
+            <span class="esn-stack-chip">ETL</span><span class="esn-stack-chip">SAP intégration</span>
+          </div>
+        </div>
+
+        <div class="esn-service-card">
+          <div class="esn-service-icon"><svg viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"/></svg></div>
+          <div class="esn-service-title">Formation & Transfert de compétences</div>
+          <div class="esn-service-desc">Galima Academy intégrée à chaque engagement. Vos équipes ne restent pas dépendantes de nous — elles montent en compétences en parallèle du projet pour assurer la maintenance autonome.</div>
+          <div class="esn-service-stack">
+            <span class="esn-stack-chip">Ateliers techniques</span><span class="esn-stack-chip">Pair programming</span>
+            <span class="esn-stack-chip">Documentation</span><span class="esn-stack-chip">Certifications</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTEURS -->
+  <section class="esn-sectors">
+    <div class="hero-grid" style="background-image:linear-gradient(rgba(52,211,153,.04) 1px,transparent 1px),linear-gradient(90deg,rgba(52,211,153,.04) 1px,transparent 1px);background-size:48px 48px"></div>
+    <div class="esn-sectors-inner">
+      <div class="why-eyebrow" style="color:#34D399">Secteurs d'intervention</div>
+      <h2 class="why-title" style="color:white">Nous connaissons <span style="color:#34D399">vos réalités terrain</span></h2>
+      <p style="font-size:16px;color:rgba(255,255,255,.4);max-width:520px;margin-bottom:0;line-height:1.75">Pas de solution générique. Nos cas d'usage sont conçus pour les contraintes africaines — infrastructure, connectivité, usages mobile, réglementations locales.</p>
+      <div class="esn-sector-grid">
+        <div class="esn-sector">
+          <div class="esn-sector-emoji">🏦</div>
+          <div class="esn-sector-name">Finance & Banque</div>
+          <div class="esn-sector-ex">Core banking, détection de fraude, réconciliation automatique, reporting réglementaire, mobile money intégration.</div>
+          <div class="esn-sector-tag">Clients actifs</div>
+        </div>
+        <div class="esn-sector">
+          <div class="esn-sector-emoji">🚚</div>
+          <div class="esn-sector-name">Logistique & Transport</div>
+          <div class="esn-sector-ex">Tracking temps réel, optimisation de tournées, gestion de flotte, prédiction des délais, chaîne d'approvisionnement.</div>
+          <div class="esn-sector-tag">KOLISS Group</div>
+        </div>
+        <div class="esn-sector">
+          <div class="esn-sector-emoji">🌾</div>
+          <div class="esn-sector-name">Agriculture & Agrotech</div>
+          <div class="esn-sector-ex">Traçabilité des intrants, gestion des coopératives, plateforme d'approvisionnement, météo et conseil agricole IA.</div>
+          <div class="esn-sector-tag">GALIMA AGROTECH</div>
+        </div>
+        <div class="esn-sector">
+          <div class="esn-sector-emoji">🏛️</div>
+          <div class="esn-sector-name">Administration Publique</div>
+          <div class="esn-sector-ex">Digitalisation des démarches citoyennes, GED, portails gouvernementaux, e-services, gestion RH administrations.</div>
+          <div class="esn-sector-tag">Partenaire MEFPT</div>
+        </div>
+        <div class="esn-sector">
+          <div class="esn-sector-emoji">🏥</div>
+          <div class="esn-sector-name">Santé & Pharmacie</div>
+          <div class="esn-sector-ex">Dossiers patients numériques, gestion des stocks pharmaceutiques, télémédecine, systèmes de suivi épidémiologique.</div>
+          <div class="esn-sector-tag">En développement</div>
+        </div>
+        <div class="esn-sector">
+          <div class="esn-sector-emoji">🎓</div>
+          <div class="esn-sector-name">Éducation & Formation</div>
+          <div class="esn-sector-ex">Plateformes LMS, gestion des établissements, e-learning adaptatif, suivi de la progression apprenants.</div>
+          <div class="esn-sector-tag">Galima Academy LMS</div>
+        </div>
+        <div class="esn-sector">
+          <div class="esn-sector-emoji">🛒</div>
+          <div class="esn-sector-name">E-commerce & Retail</div>
+          <div class="esn-sector-ex">Plateformes marketplace, paiement mobile money, gestion des stocks, personnalisation IA, logistique last mile.</div>
+          <div class="esn-sector-tag">ZENALI · GALIMA.FR</div>
+        </div>
+        <div class="esn-sector">
+          <div class="esn-sector-emoji">⚡</div>
+          <div class="esn-sector-name">Énergie & Utilities</div>
+          <div class="esn-sector-ex">Gestion de distribution, smart metering, optimisation de la consommation, maintenance prédictive des équipements.</div>
+          <div class="esn-sector-tag">Opportunité 2025+</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROCESSUS D'ENGAGEMENT -->
+  <section class="esn-process">
+    <div class="esn-process-inner">
+      <div class="section-eyebrow" style="color:#065F46">Comment ça se passe</div>
+      <h2 class="section-title">De la première conversation à la mise en production</h2>
+      <p class="section-sub">Un processus en 4 étapes conçu pour minimiser votre risque et maximiser la valeur livrée à chaque phase.</p>
+      <div class="esn-process-steps">
+        <div class="esn-step">
+          <div class="esn-step-num"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg></div>
+          <div class="esn-step-label">Étape 01</div>
+          <div class="esn-step-title">Diagnostic</div>
+          <div class="esn-step-desc">Audit de votre SI existant, compréhension des processus métier, identification des priorités et estimation des charges. Livrable : cahier des charges et proposition technique.</div>
+        </div>
+        <div class="esn-step">
+          <div class="esn-step-num"><svg viewBox="0 0 24 24"><path d="M12 20h9M16.5 3.5a2.121 2.121 0 013 3L7 19l-4 1 1-4L16.5 3.5z"/></svg></div>
+          <div class="esn-step-label">Étape 02</div>
+          <div class="esn-step-title">Architecture & Design</div>
+          <div class="esn-step-desc">Conception de l'architecture technique, choix des stacks, maquettes UX/UI, spécifications fonctionnelles détaillées. Vous validez avant que le premier développeur commence.</div>
+        </div>
+        <div class="esn-step">
+          <div class="esn-step-num"><svg viewBox="0 0 24 24"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg></div>
+          <div class="esn-step-label">Étape 03</div>
+          <div class="esn-step-title">Développement agile</div>
+          <div class="esn-step-desc">Sprints de 2 semaines avec démos régulières. Accès à notre Git, reporting hebdomadaire, communication directe avec l'équipe. Vous voyez l'avancement en temps réel — pas à la fin du projet.</div>
+        </div>
+        <div class="esn-step">
+          <div class="esn-step-num"><svg viewBox="0 0 24 24"><polyline points="22 7 13.5 15.5 8.5 10.5 2 17"/><polyline points="16 7 22 7 22 13"/></svg></div>
+          <div class="esn-step-label">Étape 04</div>
+          <div class="esn-step-title">Livraison & Accompagnement</div>
+          <div class="esn-step-desc">Mise en production, formation de vos équipes techniques, documentation complète et transfert de compétences. Puis maintenance et évolution — nous restons tant que vous en avez besoin.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- RÉFÉRENCES -->
+  <section class="esn-refs">
+    <div class="esn-refs-inner">
+      <div class="section-eyebrow" style="color:#065F46">Ce que nos clients disent</div>
+      <h2 class="section-title">Des résultats mesurables, pas des promesses</h2>
+      <div class="esn-ref-grid">
+        <div class="esn-ref-card">
+          <div class="esn-ref-logo">STEL<br>LANTIS</div>
+          <div class="esn-ref-content">
+            <div class="esn-ref-client">STELLANTIS — Groupe automobile</div>
+            <div class="esn-ref-period">Partenariat continu · 8 ans · Nearshore + ESN</div>
+            <div class="esn-ref-quote">"Après 1 mois, on ne voyait plus la différence avec une équipe interne à Paris. Qualité de code supérieure et réduction des délais de 30%."</div>
+            <div class="esn-ref-tags"><span class="esn-ref-tag">Dev logiciel</span><span class="esn-ref-tag">-70% temps reporting</span><span class="esn-ref-tag">+30% productivité</span></div>
+          </div>
+        </div>
+        <div class="esn-ref-card">
+          <div class="esn-ref-logo">ALTEN<br>GROUP</div>
+          <div class="esn-ref-content">
+            <div class="esn-ref-client">ALTEN GROUP — ESN internationale</div>
+            <div class="esn-ref-period">Collaboration continue · 8 ans · Équipe dédiée</div>
+            <div class="esn-ref-quote">"180 000€ économisés sur 12 mois. La qualité du code a dépassé celle de notre équipe locale selon notre propre audit interne."</div>
+            <div class="esn-ref-tags"><span class="esn-ref-tag">180K€ économisés/an</span><span class="esn-ref-tag">Scaling x3 en 3 sem.</span><span class="esn-ref-tag">Audit qualité ✓</span></div>
+          </div>
+        </div>
+        <div class="esn-ref-card">
+          <div class="esn-ref-logo">HUB<br>SAN</div>
+          <div class="esn-ref-content">
+            <div class="esn-ref-client">HUBSAN — Technologie</div>
+            <div class="esn-ref-period">Collaboration · 3 ans · SLA garanti</div>
+            <div class="esn-ref-quote">"Trois renouvellements annuels consécutifs. Les SLA ont été respectés à 99,8% sur toute la durée. Relation de confiance construite dans le temps."</div>
+            <div class="esn-ref-tags"><span class="esn-ref-tag">99.8% SLA</span><span class="esn-ref-tag">-40% coûts</span><span class="esn-ref-tag">×3 renouvellements</span></div>
+          </div>
+        </div>
+        <div class="esn-ref-card">
+          <div class="esn-ref-logo">ONFP<br>MEFPT</div>
+          <div class="esn-ref-content">
+            <div class="esn-ref-client">MEFPT / ONFP — Administration publique sénégalaise</div>
+            <div class="esn-ref-period">Partenariat institutionnel · Dakar</div>
+            <div class="esn-ref-quote">"Galimatech est l'opérateur de référence que nous avons choisi pour accompagner la transformation numérique des compétences au Sénégal."</div>
+            <div class="esn-ref-tags"><span class="esn-ref-tag">Formation IA</span><span class="esn-ref-tag">PATIP-JF</span><span class="esn-ref-tag">Plan numérique national</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- OFFRES COMMERCIALES -->
+  <section class="esn-offres">
+    <div class="hero-grid" style="background-image:linear-gradient(rgba(52,211,153,.04) 1px,transparent 1px),linear-gradient(90deg,rgba(52,211,153,.04) 1px,transparent 1px);background-size:48px 48px"></div>
+    <div class="esn-offres-inner">
+      <div class="why-eyebrow" style="color:#34D399">Modèles d'engagement</div>
+      <h2 class="why-title">Choisissez <span style="color:#34D399">votre mode de travail</span></h2>
+      <div class="esn-offres-grid">
+        <div class="esn-offre-card">
+          <div class="esn-offre-label">Modèle 01</div>
+          <div class="esn-offre-title">Projet au forfait</div>
+          <div class="esn-offre-desc">Périmètre défini, délai garanti, prix fixe. Idéal pour un besoin précis avec un livrable identifié.</div>
+          <div class="esn-offre-items">
+            <div class="esn-offre-item"><div class="esn-offre-check"><svg viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></svg></div><span>Cahier des charges validé avant démarrage</span></div>
+            <div class="esn-offre-item"><div class="esn-offre-check"><svg viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></svg></div><span>Prix fixe et délai contractualisés</span></div>
+            <div class="esn-offre-item"><div class="esn-offre-check"><svg viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></svg></div><span>Démos bi-hebdomadaires</span></div>
+            <div class="esn-offre-item"><div class="esn-offre-check"><svg viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></svg></div><span>Recette et formation incluses</span></div>
+          </div>
+        </div>
+        <div class="esn-offre-card" style="border-color:rgba(52,211,153,.25);background:rgba(52,211,153,.06)">
+          <div class="esn-offre-label">Modèle 02 · Recommandé</div>
+          <div class="esn-offre-title">Équipe dédiée (régie)</div>
+          <div class="esn-offre-desc">Une équipe Galimatech intégrée à la vôtre. Flexibilité maximale, montée en charge selon les besoins. Le modèle préféré de nos partenaires récurrents.</div>
+          <div class="esn-offre-items">
+            <div class="esn-offre-item"><div class="esn-offre-check"><svg viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></svg></div><span>De 1 à 20 profils selon vos besoins</span></div>
+            <div class="esn-offre-item"><div class="esn-offre-check"><svg viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></svg></div><span>Scaling en 72h garanti</span></div>
+            <div class="esn-offre-item"><div class="esn-offre-check"><svg viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></svg></div><span>Turnover < 20% — profils formés en interne</span></div>
+            <div class="esn-offre-item"><div class="esn-offre-check"><svg viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></svg></div><span>Résiliation sous 30 jours</span></div>
+          </div>
+        </div>
+        <div class="esn-offre-card">
+          <div class="esn-offre-label">Modèle 03</div>
+          <div class="esn-offre-title">Conseil & Accompagnement</div>
+          <div class="esn-offre-desc">Vous avez une équipe interne mais vous avez besoin d'expertise ponctuelle ou d'un regard externe. Audit, architecture, revue de code, coaching technique.</div>
+          <div class="esn-offre-items">
+            <div class="esn-offre-item"><div class="esn-offre-check"><svg viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></svg></div><span>Audit technique et architectural</span></div>
+            <div class="esn-offre-item"><div class="esn-offre-check"><svg viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></svg></div><span>Revue de code et qualité</span></div>
+            <div class="esn-offre-item"><div class="esn-offre-check"><svg viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></svg></div><span>Formation et montée en compétences</span></div>
+            <div class="esn-offre-item"><div class="esn-offre-check"><svg viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></svg></div><span>Expertise ponctuelle ou récurrente</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA FINAL -->
+  <section class="esn-cta-final">
+    <div class="esn-glow"></div>
+    <div class="esn-cta-inner">
+      <div class="esn-badge" style="margin:0 auto 24px"><div class="esn-badge-dot"></div><span class="esn-badge-text">Démarrons</span></div>
+      <h2 style="font-family:var(--font-d);font-size:clamp(28px,4vw,46px);font-weight:800;color:white;margin-bottom:16px;line-height:1.15">Un échange de 30 minutes pour comprendre votre contexte.</h2>
+      <p style="font-size:16px;color:rgba(255,255,255,.45);margin-bottom:44px;line-height:1.75">Pas de démarchage commercial. Pas de proposition standard. Nous prenons le temps de comprendre votre besoin avant de vous proposer quoi que ce soit.</p>
+      <div style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap">
+        <a href="mailto:contact@galimatech.com" class="btn-esn">Planifier l'échange <svg class="ic" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+        <a href="#" onclick="showPage('page-why')" class="btn-esn-ghost">Pourquoi nous choisir ?</a>
+      </div>
+      <div style="margin-top:48px;display:flex;gap:40px;justify-content:center;flex-wrap:wrap">
+        <div style="text-align:center"><div style="font-family:var(--font-m);font-size:22px;color:#34D399;font-weight:500">30 min</div><div style="font-size:11px;color:rgba(255,255,255,.3);margin-top:4px">Premier échange</div></div>
+        <div style="text-align:center"><div style="font-family:var(--font-m);font-size:22px;color:#34D399;font-weight:500">72h</div><div style="font-size:11px;color:rgba(255,255,255,.3);margin-top:4px">Proposition technique</div></div>
+        <div style="text-align:center"><div style="font-family:var(--font-m);font-size:22px;color:#34D399;font-weight:500">0€</div><div style="font-size:11px;color:rgba(255,255,255,.3);margin-top:4px">Audit initial</div></div>
+      </div>
+    </div>
+  </section>
+
+</div><!-- /page-africa -->
+
+<!-- ════════════════════════════════════════════
+     PAGE ACADEMY
+════════════════════════════════════════════ -->
+<div id="page-academy" class="page">
+  <div class="page-hero" style="background:linear-gradient(135deg,#451A03 0%,#92400E 100%)">
+    <button class="back-btn" onclick="showPage('page-home')"><svg viewBox="0 0 24 24"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>Retour</button>
+    <div class="page-eyebrow" style="color:var(--gold-light)">Talent · Galima Academy</div>
+    <h1 style="color:white">AI, Digital & Executive <span style="color:var(--gold-light)">Transformation Institute</span></h1>
+    <p style="color:rgba(255,255,255,.6)">Le seul institute en Afrique de l'Ouest qui forme ET emploie dans le numérique — parce que Galimatech est derrière.</p>
+    <div class="page-stats">
+      <div class="page-stat"><div class="n" style="color:var(--gold-light)">25</div><div class="l">Formations certifiées</div></div>
+      <div class="page-stat"><div class="n" style="color:var(--gold-light)">80%</div><div class="l">Pratique sur projets réels</div></div>
+      <div class="page-stat"><div class="n" style="color:var(--gold-light)">87%</div><div class="l">Taux d'insertion à 6 mois</div></div>
+      <div class="page-stat"><div class="n" style="color:var(--gold-light)">ONFP</div><div class="l">Finançable</div></div>
+    </div>
+  </div>
+  <div class="content-section">
+    <div style="max-width:660px;margin-bottom:48px">
+      <div class="section-eyebrow" style="color:var(--gold)">Notre approche</div>
+      <h2>"On ne vend pas une formation. On vous change."</h2>
+      <p>Chaque programme est conçu à partir d'un objectif de carrière ou de transformation. Vous sortez avec un portfolio, des compétences prouvées et un réseau réel dans les meilleures entreprises tech.</p>
+    </div>
+    <h2>Les 4 Schools</h2>
+    <p>Organisées par besoin métier, pas par technologie. Un directeur financier n'achète pas une formation Python — il achète une solution pour automatiser sa fonction finance.</p>
+    <div class="school-grid">
+      <div class="school-card"><div class="school-tag">School 01</div><h3>AI Engineering School</h3><p>Développeurs, Data Engineers, DevOps, Cloud. Formations techniques sur stacks enterprise : Angular, React, Laravel, Java, Python, Docker, AWS.</p></div>
+      <div class="school-card"><div class="school-tag">School 02</div><h3>AI Business School</h3><p>Managers, Chefs de projet, PMO, Business Analysts. Methodes agiles, PRINCE2, Planisware, Jira, IA Générative pour les métiers.</p></div>
+      <div class="school-card"><div class="school-tag">School 03</div><h3>AI Operations School</h3><p>RH, Finance, Logistique, Supply Chain, Administration, Santé. L'IA au service de vos processus opérationnels — sans coder.</p></div>
+      <div class="school-card"><div class="school-tag">School 04</div><h3>Executive Transformation</h3><p>DG, DSI, DAF, décideurs publics et privés. Piloter la transformation digitale de son organisation — de la stratégie au déploiement opérationnel.</p></div>
+    </div>
+    <div class="talent-loop" style="margin-top:60px">
+      <h3>La Talent Factory — Pourquoi 87% de nos apprenants trouvent un emploi</h3>
+      <div class="loop-steps">
+        <div class="loop-step"><div class="loop-step-num">01</div><div><h4>Formation intensive — 80% pratique</h4><p>Formateurs praticiens actifs. Cas d'usage africains réels (Wave, OrangeMoney). Évaluation par projet livré, pas par QCM.</p></div></div>
+        <div class="loop-step"><div class="loop-step-num">02</div><div><h4>Stage Galimatech — projets clients France</h4><p>2 à 3 mois sur des projets nearshore réels pour Stellantis, Alten et d'autres. Ce qui compte sur un CV. Ce que personne d'autre au Sénégal ne peut offrir.</p></div></div>
+        <div class="loop-step"><div class="loop-step-num">03</div><div><h4>Certification & Emploi</h4><p>Certifications internationales (AWS, PSM I, PRINCE2). Pipeline direct vers Galimatech et les entreprises partenaires.</p></div></div>
+        <div class="loop-step"><div class="loop-step-num">04</div><div><h4>Communauté Alumni active</h4><p>Réseau des talents numériques Galima. Mentoring, opportunités, projets communs. Formation continue accessible.</p></div></div>
+      </div>
+    </div>
+    <div style="margin-top:40px;text-align:center"><a href="mailto:academy@galimatech.com" class="btn-primary" style="background:var(--gold);color:#1a0a00;display:inline-flex">Découvrir les formations <svg class="ic" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a></div>
+  </div>
+</div>
+
+
+<script>
+window.addEventListener('scroll',function(){
+  var n=document.getElementById('mainNav');
+  if(window.scrollY>40)n.classList.add('scrolled');else n.classList.remove('scrolled');
+});
+
+/* ── HERO SLIDER (3 images) ── */
+var heroSlideIndex=0,heroSlideTimer=null;
+function goToHeroSlide(i){
+  var slides=document.querySelectorAll('.hero-slide');
+  var dots=document.querySelectorAll('.hero-dot');
+  if(!slides.length)return;
+  slides[heroSlideIndex].classList.remove('active');
+  dots[heroSlideIndex] && dots[heroSlideIndex].classList.remove('active');
+  heroSlideIndex=i%slides.length;
+  slides[heroSlideIndex].classList.add('active');
+  dots[heroSlideIndex] && dots[heroSlideIndex].classList.add('active');
+  resetHeroAutoplay();
+}
+function nextHeroSlide(){goToHeroSlide(heroSlideIndex+1);}
+function resetHeroAutoplay(){
+  clearInterval(heroSlideTimer);
+  heroSlideTimer=setInterval(nextHeroSlide,5500);
+}
+resetHeroAutoplay();
+
+function showPage(id){
+  document.querySelectorAll('.page').forEach(function(p){p.classList.remove('active');});
+  document.getElementById(id).classList.add('active');
+  window.scrollTo(0,0);
+  document.getElementById('mainNav').classList.remove('scrolled');
+}
+function toggleMobileNav(){document.getElementById('mobileNav').classList.toggle('open');}
+function scrollToSection(){
+  showPage('page-home');
+  setTimeout(function(){var el=document.getElementById('besoins');if(el)el.scrollIntoView({behavior:'smooth'});},100);
+}
+function filterSector(sector,btn){
+  document.querySelectorAll('.sector-tab').forEach(function(t){t.classList.remove('active');});
+  btn.classList.add('active');
+  document.querySelectorAll('.usecase-card').forEach(function(c){
+    if(sector==='all'||c.dataset.sector===sector){c.style.display='flex';c.style.flexDirection='column';}
+    else{c.style.display='none';}
+  });
+}
+var diagAnswers={};
+function selectOpt(el,q,val){
+  el.closest('.diag-options').querySelectorAll('.diag-opt').forEach(function(o){o.classList.remove('selected');});
+  el.classList.add('selected');
+  diagAnswers[q]=val;
+}
+function showDiagResult(){
+  var map={a:1,b:2,c:3,d:4};
+  var score=(map[diagAnswers['q1']]||1)+(map[diagAnswers['q2']]||1)+(map[diagAnswers['q3']]||1);
+  var title,text;
+  if(score<=5){
+    title="Niveau 1 — Explorateur : commencez par l'audit gratuit";
+    text="Votre organisation est en phase de decouverte. L'audit gratuit de 2h est fait pour vous : nous cartographions 3 de vos processus et identifions les cas d'usage les plus simples a deployer. Pas de prerequis. Pas d'engagement.";
+  } else if(score<=8){
+    title="Niveau 2 — Experimentateur : AI Executive Advisory recommande";
+    text="Vous avez commence a explorer mais n'avez pas encore de deploiement en production. Le diagnostic complet (Phase 1) vous permettra de prioriser les bons cas d'usage et de construire le business case pour convaincre votre direction. Budget : 5 a 15M FCFA.";
+  } else {
+    title="Niveau 3-4 — Integrateur / Transformateur : ATP complet";
+    text="Vous avez deja des bases solides. L'AI Transformation Program complet est adapte : nouveaux cas d'usage, montee en competences, mesure du ROI et construction d'un centre d'excellence IA interne. Parlons-en directement.";
+  }
+  var r=document.getElementById('diagResult');
+  document.getElementById('diagTitle').textContent=title;
+  document.getElementById('diagText').textContent=text;
+  r.classList.add('show');
+  r.scrollIntoView({behavior:'smooth',block:'nearest'});
+}
+function handleLogoUpload(input,imgId,placeholderId){
+  var file=input.files&&input.files[0];
+  if(!file)return;
+  var reader=new FileReader();
+  reader.onload=function(e){
+    var img=document.getElementById(imgId);
+    var placeholder=document.getElementById(placeholderId);
+    img.src=e.target.result;
+    img.style.display='block';
+    if(placeholder)placeholder.style.display='none';
+  };
+  reader.readAsDataURL(file);
+}
+function toggleFaq(qEl){
+  var item=qEl.closest('.faq-item');
+  var isOpen=item.classList.contains('open');
+  document.querySelectorAll('.faq-item').forEach(function(i){i.classList.remove('open');});
+  if(!isOpen)item.classList.add('open');
+}
+function updateCalc(){
+  var d=parseInt(document.getElementById('devCount').value);
+  var t=parseInt(document.getElementById('tjm').value);
+  var e=Math.round(d*t*220*0.38/1000)*1000;
+  document.getElementById('devCountVal').textContent=d+' développeur'+(d>1?'s':'');
+  document.getElementById('tjmVal').textContent=t.toLocaleString('fr')+' €/jour';
+  document.getElementById('economy').textContent=e.toLocaleString('fr')+' €';
+}
+updateCalc();
+</script>
+</body>
+</html>
